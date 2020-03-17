@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../static/css/simple-sidebar.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h2>Vertical Tabs</h2>
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Dashboard')" id="defaultOpen">Dashboard</button>
+    <button class="tablinks" onclick="openTab(event, 'Ability_Scores')">Ability Scores</button>
+    <button class="tablinks" onclick="openTab(event, 'Ancestry')">Ancestry</button>
+    <button class="tablinks" onclick="openTab(event, 'Background')">Background</button>
+    <button class="tablinks" onclick="openTab(event, 'Class_and_Level')">Class and Level</button>
+    <button class="tablinks" onclick="openTab(event, 'Equipment')">Equipment</button>
+    <button class="tablinks" onclick="openTab(event, 'Feats')">Feats</button>
+    <button class="tablinks" onclick="openTab(event, 'Spells')">Spells</button>
+</div>
+
+<div id="Dashboard" class="tabcontent">
+    Dashbooard
+</div>
+<div id="Ability_Scores" class="tabcontent">
+    Ability Scores
+</div>
+<div id="Ancestry" class="tabcontent">
+    Ancestry
+</div>
+<div id="Background" class="tabcontent">
+    Background
+</div>
+<div id="Class_and_Level" class="tabcontent">
+    Class and Level
+</div>
+<div id="Equipment" class="tabcontent">
+    Equipment
+</div>
+<div id="Feats" class="tabcontent">
+    Feats
+</div>
+<div id="Spells" class="tabcontent">
+    Spells
+</div>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+</body>
+</html>

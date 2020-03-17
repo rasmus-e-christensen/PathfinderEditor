@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+jupyterlab = "*"
+sklearn = "*"
+pandas = "*"
+lemmy = "*"
+flask_sqlalchemy = "*"
+Werkzeug = "*"
+flask = "*"
+firebase-admin = "*"
+flask-wtf = "*"
+
+[dev-packages]

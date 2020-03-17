@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script>
+$('input[id=strength]').change(function(){
+  $('#str_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+$('input[id=dexterity]').change(function(){
+  $('#dex_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+$('input[id=constitution]').change(function(){
+  $('#con_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+$('input[id=intelligence]').change(function(){
+  $('#int_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+$('input[id=wisdom]').change(function(){
+  $('#wis_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+$('input[id=charisma]').change(function(){
+  $('#cha_mod').text( Math.floor((parseInt(this.value) - 10) / 2) );
+});
+</script>
+
+</head>
+<body>
+<table class="table table-bordered" id="table">
+    <thead>
+    <tr>
+        <th scope="col">Ability Scores</th>
+        <th scope="col">Strength</th>
+        <th scope="col">Dexterity</th>
+        <th scope="col">Constitution</th>
+        <th scope="col">Intelligence</th>
+        <th scope="col">Wisdom</th>
+        <th scope="col">Charisma</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">Base Score</th>
+        <td>
+            <input type="number" class="form-control" id="strength"
+                   placeholder="" value="10" required></td>
+        <td>
+            <input type="number" class="form-control" id="dexterity"
+                   placeholder="" value="10" required></td>
+        <td>
+            <input type="number" class="form-control" id="constitution"
+                   placeholder="" value="10" required></td>
+        <td>
+            <input type="number" class="form-control" id="intelligence"
+                   placeholder="" value="10" required></td>
+        <td>
+            <input type="number" class="form-control" id="wisdom"
+                   placeholder="" value="10" required></td>
+        <td>
+            <input type="number" class="form-control" id="charisma"
+                   placeholder="" value="10" required></td>
+    </tr>
+    <tr>
+        <th scope="row">Ability Modifier</th>
+        <td id="str_mod">0</td>
+        <td id="dex_mod">0</td>
+        <td id="con_mod">0</td>
+        <td id="int_mod">0</td>
+        <td id="wis_mod">0</td>
+        <td id="cha_mod">0</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+$('table > tbody  > tr').each(function(index, tr) {
+   console.log(index);
+   console.log(tr);
+});
+
+
+</script>
+
+</body>
+</html>
