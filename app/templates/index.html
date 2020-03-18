@@ -12,13 +12,14 @@
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="../static/css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- In order to load the subpages -->
     <script src="../static/js/jquery-1.9.1.min.js"></script>
+    <script src="../static/js/ability.js"></script>
     <script>
     $(function(){
-      $("#ability_score_box").load("/ability_score");
+      $("#ability_subpage").load("/ability_score");
     });
-
-
     </script>
 </head>
 <body>
@@ -83,7 +84,7 @@
                     <div class="row">
                         <h1 class="mx-3">Ability Scores</h1>
                     </div>
-                    <div id="ability_score_box"></div>
+                    <div id="ability_subpage"></div>
                 </div>
                 <!-- Ancestry Content -->
                 <div id="Ancestry" class="tabcontent">
@@ -135,6 +136,7 @@
 <script src="../static/vendor/jquery/jquery.min.js"></script>
 <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+
 <!-- Menu Toggle Script -->
 <script>
 function openTab(evt, tabName) {
@@ -149,13 +151,12 @@ function openTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
+  if(tabName == "Ability_Scores"){
+    update_ability_table()
+  }
 }
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
 </script>
-
-
-
-
 </body>
 </html>
