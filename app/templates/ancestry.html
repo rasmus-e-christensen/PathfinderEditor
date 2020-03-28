@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="../static/js/ancestry.js"></script>
+</head>
+<body>
+<div class="btn-group">
+    <select class="form-control" id="ancestry_select">
+        <option class="dropdown-item">Select a class</option>
+        {% for ancestry in data %}
+        <option class="dropdown-item">{{ ancestry.name }}</option>
+        {% endfor %}
+    </select>
+</div>
+<div id="chosen_ancestry"></div>
+</body>
+</html>

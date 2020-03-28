@@ -101,12 +101,14 @@ function cha_ability(){
 };
 
 function update_ability_table(){
+// Initial update for the table
 str_ability();
 dex_ability();
 con_ability();
 int_ability();
 wis_ability();
 cha_ability();
+// Hooks for update
 $('input[id=strength], input[id=str_ances_mod], input[id=str_background_mod], input[id=str_free]').change(str_ability);
 $('input[id=dexterity], input[id=dex_ances_mod], input[id=dex_background_mod], input[id=dex_free]').change(dex_ability);
 $('input[id=constitution], input[id=con_ances_mod], input[id=con_background_mod], input[id=con_free]').change(con_ability);
