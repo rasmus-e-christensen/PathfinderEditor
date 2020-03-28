@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <script src="../static/js/ancestry.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -50,35 +50,65 @@ function changeAncestry(){
    var index = obj.map(function(e) { return e.name; }).indexOf(sel_ancestry);
    switch (sel_ancestry) {
   case "Dwarf":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('con_ances_mod').innerHTML = 2;
+    document.getElementById('wis_ances_mod').innerHTML = 2;
     break;
   case "Elf":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('dex_ances_mod').innerHTML = 2;
+    document.getElementById('int_ances_mod').innerHTML = 2;
     break;
   case "Gnome":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('con_ances_mod').innerHTML = 2;
+    document.getElementById('cha_ances_mod').innerHTML = 2;
     break;
   case "Goblin":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('dex_ances_mod').innerHTML = 2;
+    document.getElementById('cha_ances_mod').innerHTML = 2;
     break;
   case "Halfling":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('dex_ances_mod').innerHTML = 2;
+    document.getElementById('wis_ances_mod').innerHTML = 2;
+    break;
+  case "Half-Elf":
+    changeAncestryTable(obj, index);
+    break;
+  case "Half-Orc":
+    changeAncestryTable(obj, index);
     break;
   case "Human":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
     break;
   case "Hobgoblin":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('con_ances_mod').innerHTML = 2;
+    document.getElementById('int_ances_mod').innerHTML = 2;
     break;
   case "Leshy":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('con_ances_mod').innerHTML = 2;
+    document.getElementById('wis_ances_mod').innerHTML = 2;
     break;
   case "Lizardfolk":
-    changeTable(obj, index);
+    changeAncestryTable(obj, index);
+    document.getElementById('str_ances_mod').innerHTML = 2;
+    document.getElementById('wis_ances_mod').innerHTML = 2;
+    break;
+  case "Select a class":
+    document.getElementById("stat_table_hp").innerHTML = "";
+    document.getElementById("stat_table_size").innerHTML = "";
+    document.getElementById("stat_table_speed").innerHTML = "";
+    document.getElementById("stat_table_ab").innerHTML = "";
+    document.getElementById("stat_table_af").innerHTML = "";
     break;
 }};
 
-function changeTable(obj, index) {
+function changeAncestryTable(obj, index) {
+    resetAncestryRowAbilityScores();
     document.getElementById("stat_table_hp").innerHTML = obj[index].hp;
     document.getElementById("stat_table_size").innerHTML = obj[index].size;
     document.getElementById("stat_table_speed").innerHTML = obj[index].speed;

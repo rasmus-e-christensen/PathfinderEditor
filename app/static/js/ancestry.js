@@ -1,33 +1,18 @@
-function changeAncestry(){
-   var sel_ancestry = document.getElementById('ancestry_select').value;
-   var ancestry = document.getElementById("chosen_ancestry");
-   var obj = {{ data | tojson | safe }};
-   switch (sel_ancestry) {
-  case "Dwarf":
-    ancestry.innerHTML = "You choose " + obj[0].name;
-    break;
-  case "Elf":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Gnome":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Goblin":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Halfling":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Human":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Hobgoblin":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Leshy":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-  case "Lizardfolk":
-    document.getElementById("chosen_ancestry").innerHTML = "You choose " + sel_ancestry;
-    break;
-}};
+function changeAncestryTable(obj, index) {
+    document.getElementById("stat_table_hp").innerHTML = obj[index].hp;
+    document.getElementById("stat_table_size").innerHTML = obj[index].size;
+    document.getElementById("stat_table_speed").innerHTML = obj[index].speed;
+    document.getElementById("stat_table_ab").innerHTML = obj[index].abilityBoosts;
+    document.getElementById("stat_table_af").innerHTML = obj[index].abilityFlaws;
+};
+
+function resetAncestryRowAbilityScores() {
+    document.getElementById("str_ances_mod").innerHTML = 0;
+    document.getElementById("dex_ances_mod").innerHTML = 0;
+    document.getElementById("con_ances_mod").innerHTML = 0;
+    document.getElementById("int_ances_mod").innerHTML = 0;
+    document.getElementById("wis_ances_mod").innerHTML = 0;
+    document.getElementById("cha_ances_mod").innerHTML = 0;
+};
+
+
