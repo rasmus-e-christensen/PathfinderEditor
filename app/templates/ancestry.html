@@ -2,17 +2,89 @@
 <html lang="en">
 <head>
 
-<script src="../static/js/ancestry.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="btn-group">
-    <select class="form-control" id="ancestry_select">
-        <option class="dropdown-item">Select a class</option>
-        {% for ancestry in data %}
-        <option class="dropdown-item">{{ ancestry.name }}</option>
-        {% endfor %}
-    </select>
+<div class="row">
+    <div class="btn-group col-md-2">
+        <select class="form-control" id="ancestry_select" onchange="changeAncestry()">
+            <option class="dropdown-item">Select a class</option>
+            {% for ancestry in data %}
+            <option class="dropdown-item" id={{ancestry.name}}>{{ ancestry.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <br>
+    <div id="chosen_ancestry" class="col-md-5">
+        <table class="table table-bordered" id="stat_table" style="table-layout:fixed">
+            <tbody>
+            <tr>
+                <th scope="row">Hit Points</th>
+                <td id="stat_table_hp"></td>
+            </tr>
+            <tr>
+                <th scope="row">Size</th>
+                <td id="stat_table_size"></td>
+            </tr>
+            <tr>
+                <th scope="row">Speed</th>
+                <td id="stat_table_speed"></td>
+            </tr>
+            <tr>
+                <th scope="row">Ability Boosts</th>
+                <td id="stat_table_ab"></td>
+            </tr>
+            <tr>
+                <th scope="row">Ability Flaw</th>
+                <td id="stat_table_af"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
-<div id="chosen_ancestry"></div>
+<script type="text/javascript">
+function changeAncestry(){
+   var sel_ancestry = document.getElementById('ancestry_select').value;
+   var obj = {{ data | tojson | safe }};
+   var index = obj.map(function(e) { return e.name; }).indexOf(sel_ancestry);
+   switch (sel_ancestry) {
+  case "Dwarf":
+    changeTable(obj, index);
+    break;
+  case "Elf":
+    changeTable(obj, index);
+    break;
+  case "Gnome":
+    changeTable(obj, index);
+    break;
+  case "Goblin":
+    changeTable(obj, index);
+    break;
+  case "Halfling":
+    changeTable(obj, index);
+    break;
+  case "Human":
+    changeTable(obj, index);
+    break;
+  case "Hobgoblin":
+    changeTable(obj, index);
+    break;
+  case "Leshy":
+    changeTable(obj, index);
+    break;
+  case "Lizardfolk":
+    changeTable(obj, index);
+    break;
+}};
+
+function changeTable(obj, index) {
+    document.getElementById("stat_table_hp").innerHTML = obj[index].hp;
+    document.getElementById("stat_table_size").innerHTML = obj[index].size;
+    document.getElementById("stat_table_speed").innerHTML = obj[index].speed;
+    document.getElementById("stat_table_ab").innerHTML = obj[index].abilityBoosts;
+    document.getElementById("stat_table_af").innerHTML = obj[index].abilityFlaws;
+}
+</script>
 </body>
 </html>
