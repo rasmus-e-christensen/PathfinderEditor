@@ -51,28 +51,23 @@ function changeAncestry(){
    switch (sel_ancestry) {
   case "Dwarf":
     changeAncestryTable(obj, index);
-    document.getElementById('con_ances_mod').innerHTML = 2;
-    document.getElementById('wis_ances_mod').innerHTML = 2;
+    dwarf();
     break;
   case "Elf":
     changeAncestryTable(obj, index);
-    document.getElementById('dex_ances_mod').innerHTML = 2;
-    document.getElementById('int_ances_mod').innerHTML = 2;
+    elf();
     break;
   case "Gnome":
     changeAncestryTable(obj, index);
-    document.getElementById('con_ances_mod').innerHTML = 2;
-    document.getElementById('cha_ances_mod').innerHTML = 2;
+    gnome();
     break;
   case "Goblin":
     changeAncestryTable(obj, index);
-    document.getElementById('dex_ances_mod').innerHTML = 2;
-    document.getElementById('cha_ances_mod').innerHTML = 2;
+    goblin();
     break;
   case "Halfling":
     changeAncestryTable(obj, index);
-    document.getElementById('dex_ances_mod').innerHTML = 2;
-    document.getElementById('wis_ances_mod').innerHTML = 2;
+    halfing();
     break;
   case "Half-Elf":
     changeAncestryTable(obj, index);
@@ -85,18 +80,15 @@ function changeAncestry(){
     break;
   case "Hobgoblin":
     changeAncestryTable(obj, index);
-    document.getElementById('con_ances_mod').innerHTML = 2;
-    document.getElementById('int_ances_mod').innerHTML = 2;
+    hobgoblin();
     break;
   case "Leshy":
     changeAncestryTable(obj, index);
-    document.getElementById('con_ances_mod').innerHTML = 2;
-    document.getElementById('wis_ances_mod').innerHTML = 2;
+    leshy();
     break;
   case "Lizardfolk":
     changeAncestryTable(obj, index);
-    document.getElementById('str_ances_mod').innerHTML = 2;
-    document.getElementById('wis_ances_mod').innerHTML = 2;
+    lizardfolk();
     break;
   case "Select a class":
     document.getElementById("stat_table_hp").innerHTML = "";
