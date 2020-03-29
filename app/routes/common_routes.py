@@ -16,6 +16,11 @@ def ability_score():
     return render_template('ability_score.html')
 
 
+@common.route("/description")
+def description():
+    return render_template('description.html')
+
+
 @common.route("/ancestry")
 def ancestry():
     with open(os.getcwd() + '\\app\\content\\ancestry.json', 'rb') as file:
@@ -23,6 +28,8 @@ def ancestry():
     return render_template('ancestry.html', data=data['Ancestries'])
 
 
-@common.route("/description", methods=['GET'])
-def description():
-    return render_template('description.html')
+@common.route("/background", methods=['GET'])
+def background():
+    with open(os.getcwd() + '\\app\\content\\backgrounds.json', 'rb') as file:
+        data = json.loads(file.read())
+    return render_template('background.html', data=data['backgrounds'])

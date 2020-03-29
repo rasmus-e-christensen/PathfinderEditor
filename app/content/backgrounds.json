@@ -2,7 +2,6 @@
     "name": "Pathfinder 2.0 background list",
     "date": "February 11, 2020",
     "backgrounds": [
-        {},
         {
             "name": "Academic (Crafting)",
             "link": "https://pf2.d20pfsrd.com/background/academic-2/",
@@ -13,7 +12,7 @@
             ],
             "backgroundText": [
                 "You were educated at a famed academy and received quality instruction in advanced concepts of mathematics, science, and engineering.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Academia Lore skill. You gain the Skill Training skill feat."
+                "You're trained in the Crafting skill and the Academia Lore skill. You gain the Skill Training skill feat."
             ]
         },
         {
@@ -26,7 +25,7 @@
             ],
             "backgroundText": [
                 "You studied magic at a prestigious academy, learning magical traditions and earning a pedigree respected by magical scholars almost everywhere.",
-                "You\u00e2\u0080\u0099re trained in your choice of either the Arcana or Nature skill, as well as the Academia Lore skill. You gain the Recognize Spell skill feat."
+                "You're trained in your choice of either the Arcana or Nature skill, as well as the Academia Lore skill. You gain the Recognize Spell skill feat."
             ]
         },
         {
@@ -38,8 +37,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you\u00e2\u0080\u0099ll always carry within you the lessons you learned.",
-                "You\u00e2\u0080\u0099re trained in the Religion skill and the Scribing Lore skill. You gain the Student of the Canon skill feat."
+                "You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you'll always carry within you the lessons you learned.",
+                "You're trained in the Religion skill and the Scribing Lore skill. You gain the Student of the Canon skill feat."
             ]
         },
         {
@@ -52,7 +51,7 @@
             ],
             "backgroundText": [
                 "In a circus or on the streets, you earned your pay by performing as an acrobat. You might have turned to adventuring when the money dried up, or simply decided to put your skills to better use.",
-                "You\u00e2\u0080\u0099re trained in the Acrobatics skill and the Circus Lore skill. You gain the Steady Balance skill feat."
+                "You're trained in the Acrobatics skill and the Circus Lore skill. You gain the Steady Balance skill feat."
             ]
         },
         {
@@ -65,7 +64,7 @@
             ],
             "backgroundText": [
                 "You have spent time learning the practices and traditions of ancient dwarven shamans and can recognize all sorts of magic. You may have chosen your own road since then, or you may remain an adherent of the philosophy.",
-                "You\u00e2\u0080\u0099re trained in the Occultism skill and the Spirit Lore skill.",
+                "You're trained in the Occultism skill and the Spirit Lore skill.",
                 "You gain the Recognize Spell skill feat."
             ]
         },
@@ -79,7 +78,7 @@
             ],
             "backgroundText": [
                 "You have always felt a connection to animals, and it was only a small leap to learn to train them. As you travel, you continuously encounter different creatures, befriending them along the way.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill and a Lore skill related to one terrain inhabited by animals you like (such as Plains Lore or Swamp Lore). You gain the Train Animal skill feat."
+                "You're trained in the Nature skill and a Lore skill related to one terrain inhabited by animals you like (such as Plains Lore or Swamp Lore). You gain the Train Animal skill feat."
             ]
         },
         {
@@ -91,8 +90,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Whether you\u00e2\u0080\u0099re a fascinated outsider or a local proud of your nation\u00e2\u0080\u0099s storied past, you\u00e2\u0080\u0099re a devoted student of history. You might be a traveling professor, a member of a society like the Adventurer\u2019s Guild, or even a simple tomb robber cashing in on the glories of the past.",
-                "You\u00e2\u0080\u0099re trained in the Occultism skill and the Ancient Regional Lore skill. You gain the Oddity Identification skill feat."
+                "Whether you're a fascinated outsider or a local proud of your nation's storied past, you're a devoted student of history. You might be a traveling professor, a member of a society like the Adventurer's Guild, or even a simple tomb robber cashing in on the glories of the past.",
+                "You're trained in the Occultism skill and the Ancient Regional Lore skill. You gain the Oddity Identification skill feat."
             ]
         },
         {
@@ -104,8 +103,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve dedicated your life to unraveling the secrets of ancient empires, either through meticulous research or by traveling into dangerous and distant ruins to track down long-lost artifacts.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and a Regional Lore skill. You gain the Specialty Crafting skill feat."
+                "You've dedicated your life to unraveling the secrets of ancient empires, either through meticulous research or by traveling into dangerous and distant ruins to track down long-lost artifacts.",
+                "You're trained in the Crafting skill and a Regional Lore skill. You gain the Specialty Crafting skill feat."
             ]
         },
         {
@@ -113,12 +112,12 @@
             "link": "https://pf2.d20pfsrd.com/background/artisan/",
             "source": "Pathfinder 2 Core Rulebook",
             "ability": [
-                "One must be to Strength or\u00c2\u00a0Intelligence",
+                "One must be to Strength or Intelligence",
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith\u00e2\u0080\u0099s apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Guild Lore skill.",
+                "As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith's apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.",
+                "You're trained in the Crafting skill and the Guild Lore skill.",
                 "You gain the Specialty Crafting skill feat."
             ]
         },
@@ -133,7 +132,7 @@
             "backgroundText": [
                 "Your art is your greatest passion, whatever form it takes.",
                 "Adventuring might help you find inspiration, or simply be a way to survive until you become a world-famous artist.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Art Lore skill. You gain the Specialty Crafting skill feat."
+                "You're trained in the Crafting skill and the Art Lore skill. You gain the Specialty Crafting skill feat."
             ]
         },
         {
@@ -146,7 +145,7 @@
             ],
             "backgroundText": [
                 "You have learned everything you need to know about sailing and bossing people around. Now you just need a crew and a ship.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Sailing Lore skill.",
+                "You're trained in the Intimidation skill and the Sailing Lore skill.",
                 "You gain the Group Coercion skill feat."
             ]
         },
@@ -160,7 +159,7 @@
             ],
             "backgroundText": [
                 "New realms rise constantly, and you intend to lead one of them. Making your reign last, however, will require both strength and grace.",
-                "You\u2019re trained in the Society skill and the Politics Lore skill. You gain the Courtly Graces skill feat."
+                "You're trained in the Society skill and the Politics Lore skill. You gain the Courtly Graces skill feat."
             ]
         },
         {
@@ -173,7 +172,7 @@
             ],
             "backgroundText": [
                 "You have five specialties: hefting barrels, drinking, polishing steins, drinking, and drinking. You worked in a bar, where you learned how to hold your liquor and rowdily socialize.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Alcohol Lore skill. You gain the Hobnobber skill feat."
+                "You're trained in the Diplomacy skill and the Alcohol Lore skill. You gain the Hobnobber skill feat."
             ]
         },
         {
@@ -185,8 +184,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Piles of legal manuals, stern teachers, and experience in the courtroom have instructed you in legal matters. You\u00e2\u0080\u0099re capable of mounting a prosecution or defense in court, and you tend to keep abreast of local laws, as you never can tell when you might need to know them on short notice.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Legal Lore skill.",
+                "Piles of legal manuals, stern teachers, and experience in the courtroom have instructed you in legal matters. You're capable of mounting a prosecution or defense in court, and you tend to keep abreast of local laws, as you never can tell when you might need to know them on short notice.",
+                "You're trained in the Diplomacy skill and the Legal Lore skill.",
                 "You gain the Group Impression skill feat."
             ]
         },
@@ -199,8 +198,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You know how to work the less-than-legal side of the region\u00e2\u0080\u0099s markets and know how to slip contraband past the authorities.",
-                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
+                "You know how to work the less-than-legal side of the region's markets and know how to slip contraband past the authorities.",
+                "You're trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
             ]
         },
         {
@@ -213,7 +212,7 @@
             ],
             "backgroundText": [
                 "Bringing in lawbreakers lined your pockets. Maybe you had an altruistic motive and sought to bring in criminals to make the streets safer, or maybe the coin was motivation enough. Your techniques for hunting down criminals transfer easily to the life of an adventurer.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Legal Lore skill.",
+                "You're trained in the Survival skill and the Legal Lore skill.",
                 "You gain the Experienced Tracker skill feat."
             ]
         },
@@ -227,8 +226,8 @@
             ],
             "backgroundText": [
                 "You seek to overthrow tyranny.",
-                "You\u00e2\u0080\u0099re experienced operating undercover and have had to be cautious of what you say and who you trust, lest you fall afoul of the god-king\u00e2\u0080\u0099s terrible punishments.",
-                "You\u00e2\u0080\u0099re trained in the Deception skill and a Regional Lore skill.",
+                "You're experienced operating undercover and have had to be cautious of what you say and who you trust, lest you fall afoul of the god-king's terrible punishments.",
+                "You're trained in the Deception skill and a Regional Lore skill.",
                 "You gain the Lie to Me skill feat."
             ]
         },
@@ -241,8 +240,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You traveled from place to place, peddling false fortunes and snake oil in one town, pretending to be royalty in exile to seduce a wealthy heir in the next. Becoming an adventurer might be your next big scam or an attempt to put your talents to use for a greater cause. Perhaps it\u00e2\u0080\u0099s a bit of both, as you realize that after pretending to be a hero, you\u00e2\u0080\u0099ve become the mask.",
-                "You\u00e2\u0080\u0099re trained in the Deception skill and the Underworld Lore skill.",
+                "You traveled from place to place, peddling false fortunes and snake oil in one town, pretending to be royalty in exile to seduce a wealthy heir in the next. Becoming an adventurer might be your next big scam or an attempt to put your talents to use for a greater cause. Perhaps it's a bit of both, as you realize that after pretending to be a hero, you've become the mask.",
+                "You're trained in the Deception skill and the Underworld Lore skill.",
                 "You gain the Charming Liar skill feat."
             ]
         },
@@ -256,7 +255,7 @@
             ],
             "backgroundText": [
                 "You grew up steeped in the cultural legacy of pirates and smugglers, and you rely on your cleverness and charm as you make your way throughout the world.",
-                "You\u2019re trained in the Deception skill and the Underworld Lore skill. You gain the Charming Liar skill feat."
+                "You're trained in the Deception skill and the Underworld Lore skill. You gain the Charming Liar skill feat."
             ]
         },
         {
@@ -268,8 +267,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099re at home in tightly packed urban environments.",
-                "You\u00e2\u0080\u0099re trained in the Acrobatics skill and a Regional Lore skill. You gain the Steady Balance skill feat."
+                "You're at home in tightly packed urban environments.",
+                "You're trained in the Acrobatics skill and a Regional Lore skill. You gain the Steady Balance skill feat."
             ]
         },
         {
@@ -282,7 +281,7 @@
             ],
             "backgroundText": [
                 "You are proud of your country and do not consider yourself a rebel.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and a Regional Lore skill. You gain the Group Impression skill feat."
+                "You're trained in the Diplomacy skill and a Regional Lore skill. You gain the Group Impression skill feat."
             ]
         },
         {
@@ -290,12 +289,12 @@
             "link": "https://pf2.d20pfsrd.com/background/criminal/",
             "source": "Pathfinder 2 Core Rulebook",
             "ability": [
-                "One must be to Dexterity or\u00c2\u00a0Intelligence",
+                "One must be to Dexterity or Intelligence",
                 "and one is a free ability boost."
             ],
             "backgroundText": [
                 "As an unscrupulous independent or as a member of an underworld organization, you lived a life of crime. You might have become an adventurer to seek redemption, to escape the law, or simply to get access to bigger and better loot.",
-                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
+                "You're trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
             ]
         },
         {
@@ -308,7 +307,7 @@
             ],
             "backgroundText": [
                 "You grew up considering the existence of an undead nation an atrocity and trained to one day take part in destroying it and putting its vile inhabitants to their final rest. Key to your preparations is a thorough study of undead-related deities and their philosophies.",
-                "You\u00e2\u0080\u0099re trained in the Religion skill and the Undead Lore skill.",
+                "You're trained in the Religion skill and the Undead Lore skill.",
                 "You gain the Student of the Canon skill feat."
             ]
         },
@@ -322,7 +321,7 @@
             ],
             "backgroundText": [
                 "Rumors abound that your family is cursed. While that would explain several unfortunate events in your family history, you may or may not believe it. Regardless, odd coincidences plague your lineage, and perhaps even appear in your own life, and you have become used to spotting strangeness around you.",
-                "You\u00e2\u0080\u0099re trained in the Occultism skill and the Curse Lore skill. You gain the Oddity Identification skill feat."
+                "You're trained in the Occultism skill and the Curse Lore skill. You gain the Oddity Identification skill feat."
             ]
         },
         {
@@ -334,8 +333,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099re at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law\u00e2\u0080\u0094or all of the above.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Desert Lore skill. You gain the Experienced Tracker skill feat."
+                "You're at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law'or all of the above.",
+                "You're trained in the Survival skill and the Desert Lore skill. You gain the Experienced Tracker skill feat."
             ]
         },
         {
@@ -348,7 +347,7 @@
             ],
             "backgroundText": [
                 "You solved crimes as a police inspector or took jobs for wealthy clients as a private investigator. You might have become an adventurer as part of your next big mystery, but likely it was due to the consequences or aftermath of a prior case.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Underworld Lore skill. You gain the Streetwise skill feat."
+                "You're trained in the Society skill and the Underworld Lore skill. You gain the Streetwise skill feat."
             ]
         },
         {
@@ -361,7 +360,7 @@
             ],
             "backgroundText": [
                 "You were trained to be an ambassador, and you have now been sent out into the wider world to build alliances between neighboring kingdoms.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Politics Lore skill. You gain the Multilingual skill feat."
+                "You're trained in the Society skill and the Politics Lore skill. You gain the Multilingual skill feat."
             ]
         },
         {
@@ -374,7 +373,7 @@
             ],
             "backgroundText": [
                 "As a diplomat or messenger, you traveled to lands far and wide. Communicating with new people and forming alliances were your stock and trade.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and a Lore skill related to one city you\u00e2\u0080\u0099ve visited often. You gain the Multilingual skill feat."
+                "You're trained in the Society skill and a Lore skill related to one city you've visited often. You gain the Multilingual skill feat."
             ]
         },
         {
@@ -387,7 +386,7 @@
             ],
             "backgroundText": [
                 "Through an education in the arts or sheer dogged practice, you learned to entertain crowds. You might have been an actor, a dancer, a musician, a street magician, or any other sort of performer.",
-                "You\u00e2\u0080\u0099re trained in the Performance skill and the Theater Lore skill. You gain the Fascinating Performance skill feat."
+                "You're trained in the Performance skill and the Theater Lore skill. You gain the Fascinating Performance skill feat."
             ]
         },
         {
@@ -398,9 +397,9 @@
                 ""
             ],
             "backgroundText": [
-                "You have been exiled, perhaps of your own accord or perhaps because you didn\u00e2\u0080\u0099t measure up. However, you take with you some of the benefits of the excellent education afforded to its citizenry.",
+                "You have been exiled, perhaps of your own accord or perhaps because you didn't measure up. However, you take with you some of the benefits of the excellent education afforded to its citizenry.",
                 "One must be to Intelligence or Charisma, and one is a free ability boost.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Dragon Lore skill. You gain the Skill Training skill feat."
+                "You're trained in the Society skill and the Dragon Lore skill. You gain the Skill Training skill feat."
             ]
         },
         {
@@ -413,7 +412,7 @@
             ],
             "backgroundText": [
                 "You serve a living god, and this gives your actions a divine mandate not to be trifled with.",
-                "You\u2019re trained in the Intimidation skill and a Regional Lore skill. You gain the Group Coercion skill feat."
+                "You're trained in the Intimidation skill and a Regional Lore skill. You gain the Group Coercion skill feat."
             ]
         },
         {
@@ -426,7 +425,7 @@
             ],
             "backgroundText": [
                 "With a strong back and an understanding of seasonal cycles, you tilled the land and tended crops. Your farm could have been razed by invaders, you could have lost the family tying you to the land, or you might have simply tired of the drudgery, but at some point you became an adventurer.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Farming Lore skill. You gain the Assurance skill feat with Athletics."
+                "You're trained in the Athletics skill and the Farming Lore skill. You gain the Assurance skill feat with Athletics."
             ]
         },
         {
@@ -440,7 +439,7 @@
             "backgroundText": [
                 "In the chaotic rush of battle, you learned to adapt to rapidly changing conditions as you administered to battle casualties.",
                 "You patched up soldiers, guards, or other combatants, and learned a fair amount about the logistics of war.",
-                "You\u00e2\u0080\u0099re trained in the Medicine skill and the Warfare Lore skill. You gain the Battle Medic skill feat."
+                "You're trained in the Medicine skill and the Warfare Lore skill. You gain the Battle Medic skill feat."
             ]
         },
         {
@@ -453,7 +452,7 @@
             ],
             "backgroundText": [
                 "You seek to build your wealth in this life so that you might meet the next world on your own terms.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and a Regional Lore skill. You gain the Bargain Hunter skill feat."
+                "You're trained in the Diplomacy skill and a Regional Lore skill. You gain the Bargain Hunter skill feat."
             ]
         },
         {
@@ -467,7 +466,7 @@
             "backgroundText": [
                 "The strands of fate are clear to you, as you have learned many traditional forms by which laypeople can divine the future.",
                 "You might have used these skills to guide your community, or simply to make money. But even the slightest peek into these practices connects you to the occult mysteries of the universe.",
-                "You\u00e2\u0080\u0099re trained in the Occultism skill and the Fortune-Telling Lore skill. You gain the Oddity Identification skill feat."
+                "You're trained in the Occultism skill and the Fortune-Telling Lore skill. You gain the Oddity Identification skill feat."
             ]
         },
         {
@@ -479,8 +478,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "As a recently freed slave you belong to a new, closeknit social class at the heart of the city\u00e2\u0080\u0099s most important trades.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Absalom Lore skill.",
+                "As a recently freed slave you belong to a new, closeknit social class at the heart of the city's most important trades.",
+                "You're trained in the Society skill and the Absalom Lore skill.",
                 "You gain the Streetwise skill feat."
             ]
         },
@@ -494,7 +493,7 @@
             ],
             "backgroundText": [
                 "The thrill of the win drew you into games of chance. This might have been a lucrative sideline that paled in comparison to the real risks of adventuring, or you might have fallen on hard times due to your gambling and pursued adventuring as a way out of a spiral.",
-                "You\u00e2\u0080\u0099re trained in the Deception skill and the Games Lore skill. You gain the Lie to Me skill feat."
+                "You're trained in the Deception skill and the Games Lore skill. You gain the Lie to Me skill feat."
             ]
         },
         {
@@ -507,8 +506,8 @@
             ],
             "backgroundText": [
                 "The bloody games of the arena taught you the art of combat.",
-                "Before you attained true fame, you departed\u00e2\u0080\u0094or escaped\u00e2\u0080\u0094the arena to explore the world. Your skill at drawing both blood and a crowd\u00e2\u0080\u0099s attention pay off in a new adventuring life.",
-                "You\u00e2\u0080\u0099re trained in the Performance skill and the Gladiatorial Lore skill. You gain the Impressive Performance skill feat."
+                "Before you attained true fame, you departed'or escaped'the arena to explore the world. Your skill at drawing both blood and a crowd's attention pay off in a new adventuring life.",
+                "You're trained in the Performance skill and the Gladiatorial Lore skill. You gain the Impressive Performance skill feat."
             ]
         },
         {
@@ -521,7 +520,7 @@
             ],
             "backgroundText": [
                 "Your family, whether goblin, hobgoblin, or human, died in the goblin wars. Though you were marked by these losses, you managed to survive through your own resilience and resourcefulness.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Goblin Lore skill. You gain the Assurance skill feat with Survival."
+                "You're trained in the Survival skill and the Goblin Lore skill. You gain the Assurance skill feat with Survival."
             ]
         },
         {
@@ -533,8 +532,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You spent years working as a clerk. Your service taught you a thing or two about rousing speeches and manipulating the city\u00e2\u0080\u0099s bureaucracy.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Government Lore skill. You gain the Group Impression skill feat."
+                "You spent years working as a clerk. Your service taught you a thing or two about rousing speeches and manipulating the city's bureaucracy.",
+                "You're trained in the Society skill and the Government Lore skill. You gain the Group Impression skill feat."
             ]
         },
         {
@@ -548,7 +547,7 @@
             "backgroundText": [
                 "You served in the guard, out of either patriotism or the need for coin. Either way, you know how to get a difficult suspect to talk.",
                 "However you left the guard, you might think of adventuring as a way to use your skills on a wider stage.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Legal Lore or Warfare Lore skill.",
+                "You're trained in the Intimidation skill and the Legal Lore or Warfare Lore skill.",
                 "You gain the Quick Coercion skill feat."
             ]
         },
@@ -562,7 +561,7 @@
             ],
             "backgroundText": [
                 "Woodcraft comes naturally to you, and you have learned how to use the forest to your tactical advantage against superior forces.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Forest Lore skill. You gain the Terrain Stalker (underbrush) skill feat."
+                "You're trained in the Survival skill and the Forest Lore skill. You gain the Terrain Stalker (underbrush) skill feat."
             ]
         },
         {
@@ -575,8 +574,8 @@
             ],
             "backgroundText": [
                 "As a formally trained apothecary or a rural practitioner of folk medicine, you learned the Healing properties of various herbs.",
-                "You\u00e2\u0080\u0099re adept at collecting the right natural cures in all sorts of environments and preparing them properly.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill and the Herbalism Lore skill.",
+                "You're adept at collecting the right natural cures in all sorts of environments and preparing them properly.",
+                "You're trained in the Nature skill and the Herbalism Lore skill.",
                 "You gain the Natural Medicine skill feat."
             ]
         },
@@ -592,7 +591,7 @@
                 "Hermean Heritor",
                 "Background Rare",
                 "With the restrictions on Hermean citizenship lifted, you may have fled the city of Promise or have spent some of your childhood in the company of someone who did.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Legal Lore skill.",
+                "You're trained in the Society skill and the Legal Lore skill.",
                 "You gain the Multilingual skill feat or the Assurance skill feat for Society."
             ]
         },
@@ -601,13 +600,13 @@
             "link": "https://pf2.d20pfsrd.com/background/hermit/",
             "source": "Pathfinder 2 Core Rulebook",
             "ability": [
-                "One must be to Constitution or\u00c2\u00a0Intelligence",
+                "One must be to Constitution or Intelligence",
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "In an isolated place\u00e2\u0080\u0094like a cave, remote oasis, or secluded mansion\u00e2\u0080\u0094you lived a life of solitude. Adventuring might represent your first foray out among other people in some time.",
-                "This might be a welcome reprieve from solitude or an unwanted change, but in either case, you\u00e2\u0080\u0099re likely still rough around the edges.",
-                "You\u00e2\u0080\u0099re trained in the Nature or Occultism skill, plus a Lore skill related to the terrain you lived in as a hermit (such as Cave Lore or Desert Lore).",
+                "In an isolated place'like a cave, remote oasis, or secluded mansion'you lived a life of solitude. Adventuring might represent your first foray out among other people in some time.",
+                "This might be a welcome reprieve from solitude or an unwanted change, but in either case, you're likely still rough around the edges.",
+                "You're trained in the Nature or Occultism skill, plus a Lore skill related to the terrain you lived in as a hermit (such as Cave Lore or Desert Lore).",
                 "You gain the Dubious Knowledge skill feat."
             ]
         },
@@ -620,9 +619,9 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve long wanted to join an adventurer\u2019s guild.",
+                "You've long wanted to join an adventurer's guild.",
                 "You have taken up the dangerous life of an adventurer.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Adventurer\u2019s Society Lore skill. You gain the Additional Lore skill feat."
+                "You're trained in the Society skill and the Adventurer's Society Lore skill. You gain the Additional Lore skill feat."
             ]
         },
         {
@@ -635,7 +634,7 @@
             ],
             "backgroundText": [
                 "You stalked and took down animals and other creatures of the wild. Skinning animals, harvesting their flesh, and cooking them were also part of your training, all of which can give you useful resources while you adventure.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Tanning Lore skill.",
+                "You're trained in the Survival skill and the Tanning Lore skill.",
                 "You gain the Survey Wildlife skill feat."
             ]
         },
@@ -649,7 +648,7 @@
             ],
             "backgroundText": [
                 "You grew up in an untamed region and you know how to survive in the wild.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and a Lore skill related to the terrain type associated with your home region (such as Hills Lore or Mountains Lore). You gain the Survey Wildlife skill feat."
+                "You're trained in the Survival skill and a Lore skill related to the terrain type associated with your home region (such as Hills Lore or Mountains Lore). You gain the Survey Wildlife skill feat."
             ]
         },
         {
@@ -661,8 +660,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve spent years performing arduous physical labor. It was a difficult life, but you somehow survived. You may have embraced adventuring as an easier method to make your way in the world, or you might adventure under someone else\u00e2\u0080\u0099s command.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Labor Lore skill.",
+                "You've spent years performing arduous physical labor. It was a difficult life, but you somehow survived. You may have embraced adventuring as an easier method to make your way in the world, or you might adventure under someone else's command.",
+                "You're trained in the Athletics skill and the Labor Lore skill.",
                 "You gain the Hefty Hauler skill feat in Athletics."
             ]
         },
@@ -678,7 +677,7 @@
                 "Legendary Parents",
                 "Background Rare",
                 "One or more of your parents were heroes. Others tend to treat you with a bit more respect, or perhaps fear your connections to people of great power.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Genealogy Lore skill. You gain the Group Coercion skill feat."
+                "You're trained in the Intimidation skill and the Genealogy Lore skill. You gain the Group Coercion skill feat."
             ]
         },
         {
@@ -691,7 +690,7 @@
             ],
             "backgroundText": [
                 "You consider the current queen to be the rightful ruler of your homeland, and you are willing to act against her enemies.",
-                "You\u00e2\u0080\u0099re trained in the Religion skill and the Hell Lore skill",
+                "You're trained in the Religion skill and the Hell Lore skill",
                 "You gain the Student of the Canon skill feat."
             ]
         },
@@ -705,7 +704,7 @@
             ],
             "backgroundText": [
                 "You have suffered as a worker, laboring under harsh conditions in dangerous wooded regions.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Forest Lore skill.",
+                "You're trained in the Athletics skill and the Forest Lore skill.",
                 "You gain the Assurance skill feat with Athletics."
             ]
         },
@@ -718,8 +717,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You have learned the secrets of taming the mighty mammoths and other megafauna of the far north. Perhaps these talents are a part of your people\u00e2\u0080\u0099s traditional customs, or perhaps you sought out these massive animals of your own accord.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
+                "You have learned the secrets of taming the mighty mammoths and other megafauna of the far north. Perhaps these talents are a part of your people's traditional customs, or perhaps you sought out these massive animals of your own accord.",
+                "You're trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
             ]
         },
         {
@@ -732,7 +731,7 @@
             ],
             "backgroundText": [
                 "At least one of your parents is a member of the notorious Crimson assassins, merciless killers for hire who rarely fail to claim their marks. Whether on purpose or by simple exposure, you were trained from a young age in the art of stalking and killing people.",
-                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Assassin Lore skill.",
+                "You're trained in the Stealth skill and the Assassin Lore skill.",
                 "You gain the Assurance skill feat with Stealth."
             ]
         },
@@ -746,9 +745,9 @@
             ],
             "backgroundText": [
                 "You dedicated yourself to intense training and rigorous study to become a great warrior. The school you attended might have been a traditionalist monastery, an elite military academy, or the local branch of a prestigious mercenary organization.",
-                "You\u00e2\u0080\u0099re trained in your choice of the Acrobatics or Athletics skill.",
+                "You're trained in your choice of the Acrobatics or Athletics skill.",
                 "You gain a skill feat: Cat Fall if you chose Acrobatics or Quick Jump if you chose Athletics.",
-                "You\u00e2\u0080\u0099re also trained in the Warfare Lore skill."
+                "You're also trained in the Warfare Lore skill."
             ]
         },
         {
@@ -761,7 +760,7 @@
             ],
             "backgroundText": [
                 "Whether you washed warrior beasts below arena floor or tended to the mutated animals of a sideshow, you are experienced with all manner of weird wildlife.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
+                "You're trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
             ]
         },
         {
@@ -774,7 +773,7 @@
             ],
             "backgroundText": [
                 "Whether you sought citizenship or simply needed a steady paycheck, you spent some of your time as a paid mercenary. Alternatively, you might have worked at sea, protecting military and trading ships against pirates.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Mercenary Lore skill. You gain the Experienced Professional skill feat."
+                "You're trained in the Athletics skill and the Mercenary Lore skill. You gain the Experienced Professional skill feat."
             ]
         },
         {
@@ -787,7 +786,7 @@
             ],
             "backgroundText": [
                 "In a dusty shop, market stall, or merchant caravan, you bartered wares for coin and trade goods. The skills you picked up still apply in the adventuring life, in which a good deal on a suit of armor could prevent your death.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Mercantile Lore skill.",
+                "You're trained in the Diplomacy skill and the Mercantile Lore skill.",
                 "You gain the Bargain Hunter skill feat."
             ]
         },
@@ -800,8 +799,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You earned a living wrenching Precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor\u00e2\u0080\u0094 and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner\u00e2\u0080\u0099s pick.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Mining Lore skill.",
+                "You earned a living wrenching Precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor' and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner's pick.",
+                "You're trained in the Survival skill and the Mining Lore skill.",
                 "You gain the Terrain Expertise skill feat with underground terrain."
             ]
         },
@@ -815,7 +814,7 @@
             ],
             "backgroundText": [
                 "Your initiations grant you a preternatural comprehension of the arcane underpinnings of existence.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and a Lore skill related to one plane of your choice (other than the Material Plane). You gain the Arcane Sense skill feat."
+                "You're trained in the Arcana skill and a Lore skill related to one plane of your choice (other than the Material Plane). You gain the Arcane Sense skill feat."
             ]
         },
         {
@@ -828,7 +827,7 @@
             ],
             "backgroundText": [
                 "You have gone through a coming of age ceremony, gaining the traditional tattoo and earning your adult name.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Quah Lore skill. You gain the Combat Climber skill feat."
+                "You're trained in the Athletics skill and the Quah Lore skill. You gain the Combat Climber skill feat."
             ]
         },
         {
@@ -840,8 +839,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "To the common folk, the life of a noble seems one of idyllic luxury, but growing up as a noble or member of the aspiring gentry, you know the reality: a noble\u00e2\u0080\u0099s lot is obligation and intrigue. Whether you seek to escape your duties by adventuring or to better your station, you have traded silks and pageantry for an adventurer\u00e2\u0080\u0099s life.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and your choice of the Genealogy Lore or Heraldry Lore skill.",
+                "To the common folk, the life of a noble seems one of idyllic luxury, but growing up as a noble or member of the aspiring gentry, you know the reality: a noble's lot is obligation and intrigue. Whether you seek to escape your duties by adventuring or to better your station, you have traded silks and pageantry for an adventurer's life.",
+                "You're trained in the Society skill and your choice of the Genealogy Lore or Heraldry Lore skill.",
                 "You gain the Courtly Graces skill feat."
             ]
         },
@@ -855,7 +854,7 @@
             ],
             "backgroundText": [
                 "Traveling far and wide, you picked up basic tactics for surviving on the road and in unknown lands, getting by with few supplies and even fewer comforts. As an adventurer, you travel still, often into even more dangerous places.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and a Lore skill related to one terrain you traveled in (such as Desert Lore or Swamp Lore).",
+                "You're trained in the Survival skill and a Lore skill related to one terrain you traveled in (such as Desert Lore or Swamp Lore).",
                 "You gain the Assurance skill feat with Survival."
             ]
         },
@@ -868,8 +867,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You have traveled and traded goods across a wide variety of lands. You\u00e2\u0080\u0099ve learned to step lively in foreign markets of all types.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Mercantile Lore skill. You gain the Multilingual skill feat."
+                "You have traveled and traded goods across a wide variety of lands. You've learned to step lively in foreign markets of all types.",
+                "You're trained in the Society skill and the Mercantile Lore skill. You gain the Multilingual skill feat."
             ]
         },
         {
@@ -882,7 +881,7 @@
             ],
             "backgroundText": [
                 "Your apprenticeship instilled in you a deep reservoir of mostly reliable esoteric knowledge, not to mention a deep resentment born of countless hours spent mucking ooze pens and feeding helpless creatures to ravenous, belching jellies and gelatinous puddings.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Ooze Lore skill. You gain the Dubious Knowledge skill feat."
+                "You're trained in the Crafting skill and the Ooze Lore skill. You gain the Dubious Knowledge skill feat."
             ]
         },
         {
@@ -894,8 +893,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099re accustomed to arguing from a position of underappreciated worth.",
-                "You\u2019re trained in the Diplomacy skill and the Politics Lore skill. You gain the Group Impression skill feat."
+                "You're accustomed to arguing from a position of underappreciated worth.",
+                "You're trained in the Diplomacy skill and the Politics Lore skill. You gain the Group Impression skill feat."
             ]
         },
         {
@@ -908,7 +907,7 @@
             ],
             "backgroundText": [
                 "You spent a portion of your youth diving and gathering precious pearls.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Ocean Lore skill.",
+                "You're trained in the Athletics skill and the Ocean Lore skill.",
                 "You gain the Underwater Marauder skill feat."
             ]
         },
@@ -922,7 +921,7 @@
             ],
             "backgroundText": [
                 "You aspire to perfect your body and mind, honing your acrobatic skills and mental faculties in preparation for a lifetime pushing the edge of what most consider possible.",
-                "You\u00e2\u0080\u0099re trained in the Acrobatics skill as well as the Warfare Lore skill. You gain the Cat Fall skill feat."
+                "You're trained in the Acrobatics skill as well as the Warfare Lore skill. You gain the Cat Fall skill feat."
             ]
         },
         {
@@ -936,8 +935,8 @@
             "backgroundText": [
                 "You were forced into service as a sailor against your will.",
                 "Perhaps you were punished for a crime, were drafted into military service, are repaying a debt, or simply were abducted.",
-                "Though you were initially trained as a simple deckhand, you may have subsequently studied a trade under one of the vessel\u00e2\u0080\u0099s specialists.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Sailing Lore skill. You gain the Experienced Professional skill feat."
+                "Though you were initially trained as a simple deckhand, you may have subsequently studied a trade under one of the vessel's specialists.",
+                "You're trained in the Society skill and the Sailing Lore skill. You gain the Experienced Professional skill feat."
             ]
         },
         {
@@ -951,7 +950,7 @@
             "backgroundText": [
                 "You might have been imprisoned for crimes (whether you were guilty or not), or enslaved for some part of your upbringing.",
                 "In your adventuring life, you take full advantage of your newfound freedom.",
-                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Underworld Lore skill.",
+                "You're trained in the Stealth skill and the Underworld Lore skill.",
                 "You gain the Experienced Smuggler skill feat."
             ]
         },
@@ -965,7 +964,7 @@
             ],
             "backgroundText": [
                 "Even in a city renowned for its alchemy, you were able to rise above the competition.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Alchemical Lore skill. You gain the Specialty Crafting skill feat with alchemy."
+                "You're trained in the Crafting skill and the Alchemical Lore skill. You gain the Specialty Crafting skill feat with alchemy."
             ]
         },
         {
@@ -977,8 +976,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve spent enough time buying and selling ancient or unusual items to give you an instinctive ability to quickly sort valuable trinkets from worthless baubles.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Mercantile Lore skill. You gain the Quick Identification skill feat."
+                "You've spent enough time buying and selling ancient or unusual items to give you an instinctive ability to quickly sort valuable trinkets from worthless baubles.",
+                "You're trained in the Arcana skill and the Mercantile Lore skill. You gain the Quick Identification skill feat."
             ]
         },
         {
@@ -991,7 +990,7 @@
             ],
             "backgroundText": [
                 "Staying alive among scheming, ravenous undead required a deep knowledge of their motivations, capabilities, and weaknesses. More often than not, it also required the ability to weave alibis and life-preserving half-truths capable of swaying a stilled heart.",
-                "You\u00e2\u0080\u0099re trained in the Deception skill and the Undead Lore skill.",
+                "You're trained in the Deception skill and the Undead Lore skill.",
                 "You gain the Charming Liar skill feat."
             ]
         },
@@ -1005,7 +1004,7 @@
             ],
             "backgroundText": [
                 "You are feared for the merciless and devastating raids your people once conducted. You have been trained to strike terror into the hearts of those who face you.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Sailing Lore skill. You gain the Intimidating Glare skill feat."
+                "You're trained in the Intimidation skill and the Sailing Lore skill. You gain the Intimidating Glare skill feat."
             ]
         },
         {
@@ -1018,7 +1017,7 @@
             ],
             "backgroundText": [
                 "Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or philosophy. You might remain committed or you may have turned from your childhood creed, but your skills are still founded in your devotion.",
-                "You\u00e2\u0080\u0099re trained in your deity\u00e2\u0080\u0099s associated skill, and you gain Assurance with that skill. You gain a Lore skill with a subcategory associated with your deity (Abadar Lore, for instance)."
+                "You're trained in your deity's associated skill, and you gain Assurance with that skill. You gain a Lore skill with a subcategory associated with your deity (Abadar Lore, for instance)."
             ]
         },
         {
@@ -1031,7 +1030,7 @@
             ],
             "backgroundText": [
                 "You grew up breeding and training horses.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
+                "You're trained in the Nature skill and the Animal Lore skill. You gain the Train Animal skill feat."
             ]
         },
         {
@@ -1044,7 +1043,7 @@
             ],
             "backgroundText": [
                 "You may have helped liberate a nation, or you might be involved in another rebellion.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and a Regional Lore skill. You gain the Streetwise skill feat."
+                "You're trained in the Society skill and a Regional Lore skill. You gain the Streetwise skill feat."
             ]
         },
         {
@@ -1057,7 +1056,7 @@
             ],
             "backgroundText": [
                 "You seek to liberate a land from the demons who have defiled it.",
-                "You\u2019re trained in the Medicine skill and the Abyssal Lore skill. You gain the Battle Medicine skill feat."
+                "You're trained in the Medicine skill and the Abyssal Lore skill. You gain the Battle Medicine skill feat."
             ]
         },
         {
@@ -1069,8 +1068,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You know that the only way your homeland can remain free from outside conquerors is by forging a strong and unified government. As such, you seek to bind your fellow citizens together through careful diplomacy and force of personality\u00e2\u0080\u0094or, if necessary, subterfuge and intrigue.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Politics Lore skill.",
+                "You know that the only way your homeland can remain free from outside conquerors is by forging a strong and unified government. As such, you seek to bind your fellow citizens together through careful diplomacy and force of personality'or, if necessary, subterfuge and intrigue.",
+                "You're trained in the Diplomacy skill and the Politics Lore skill.",
                 "You gain the Hobnobber skill feat."
             ]
         },
@@ -1083,8 +1082,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Exposure to the corrupting influence of the Mana Wastes\u00e2\u0080\u0099 strange energies has warped your inner essence, resulting in unpredictable interactions with magic items and more than a little know-how about surviving under bizarre and adverse natural conditions.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Wilderness Lore skill.",
+                "Exposure to the corrupting influence of the Mana Wastes' strange energies has warped your inner essence, resulting in unpredictable interactions with magic items and more than a little know-how about surviving under bizarre and adverse natural conditions.",
+                "You're trained in the Arcana skill and the Wilderness Lore skill.",
                 "You gain the Trick Magic Item skill feat."
             ]
         },
@@ -1097,8 +1096,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Though many worship demons, you seek to pave a different path for yourself and your kindred, while also attempting to change other\u2019s treatment of your culture.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Abyss Lore skill.",
+                "Though many worship demons, you seek to pave a different path for yourself and your kindred, while also attempting to change other's treatment of your culture.",
+                "You're trained in the Diplomacy skill and the Abyss Lore skill.",
                 "You gain the Group Impression skill feat."
             ]
         },
@@ -1112,7 +1111,7 @@
             ],
             "backgroundText": [
                 "As an experienced sailor, you know that the only thing saving you from disaster on the high seas is a properly maintained ship. You know boat-building inside and out and you can quickly cobble together a solution in the event that something breaks.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Sailing Lore skill. You gain the Quick Repair skill feat."
+                "You're trained in the Crafting skill and the Sailing Lore skill. You gain the Quick Repair skill feat."
             ]
         },
         {
@@ -1124,8 +1123,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You heard the call of the sea from a young age. Perhaps you signed onto a merchant\u00e2\u0080\u0099s vessel, joined the navy, or even fell in with a crew of pirates and scalawags.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Sailing Lore skill.",
+                "You heard the call of the sea from a young age. Perhaps you signed onto a merchant's vessel, joined the navy, or even fell in with a crew of pirates and scalawags.",
+                "You're trained in the Athletics skill and the Sailing Lore skill.",
                 "You gain the Underwater Marauder skill feat."
             ]
         },
@@ -1138,8 +1137,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve managed to eke out an existence in the storm-wracked Sodden Lands and have become an expert at scavenging food and tools.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Swamp Lore skill.",
+                "You've managed to eke out an existence in the storm-wracked Sodden Lands and have become an expert at scavenging food and tools.",
+                "You're trained in the Survival skill and the Swamp Lore skill.",
                 "You gain the Forager skill feat."
             ]
         },
@@ -1153,7 +1152,7 @@
             ],
             "backgroundText": [
                 "Whether willing or unwilling, you have been involved in the many cutthroat political intrigues. You might have been born into it as a member of the aristocracy, or you might have taken an active role in recent events.",
-                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Politics Lore skill. You gain the Hobnobber skill feat."
+                "You're trained in the Diplomacy skill and the Politics Lore skill. You gain the Hobnobber skill feat."
             ]
         },
         {
@@ -1167,8 +1166,8 @@
             "backgroundText": [
                 "You have a knack for learning, and sequestered yourself from the outside world to learn all you could. You read about so many wondrous places and things in your books, and always dreamed about one day seeing the real things.",
                 "Eventually, that curiosity led you to leave your studies and become an adventurer.",
-                "You\u00e2\u0080\u0099re trained in your choice of the Arcana, Nature, Occultism, or Religion skill, and gain the Assurance skill feat in your chosen skill.",
-                "You\u00e2\u0080\u0099re also trained in the Academia Lore skill."
+                "You're trained in your choice of the Arcana, Nature, Occultism, or Religion skill, and gain the Assurance skill feat in your chosen skill.",
+                "You're also trained in the Academia Lore skill."
             ]
         },
         {
@@ -1180,8 +1179,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099re fascinated by lost empires and have dedicated yourself to seeking out and studying every broken artifact or scrap of knowledge that remains, whether as an academic pursuit or simply for the joy of treasure hunting.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and a Regional Lore skills. You gain the Quick Identification skill feat."
+                "You're fascinated by lost empires and have dedicated yourself to seeking out and studying every broken artifact or scrap of knowledge that remains, whether as an academic pursuit or simply for the joy of treasure hunting.",
+                "You're trained in the Arcana skill and a Regional Lore skills. You gain the Quick Identification skill feat."
             ]
         },
         {
@@ -1193,8 +1192,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Your family has long been associated with an enigmatic death cult. Whether or not you have followed in their footsteps, you know many of the philosophy\u00e2\u0080\u0099s secrets.",
-                "You\u00e2\u0080\u0099re trained in the Religion skill and the Undead Lore skill. You gain the Student of the Canon skill feat."
+                "Your family has long been associated with an enigmatic death cult. Whether or not you have followed in their footsteps, you know many of the philosophy's secrets.",
+                "You're trained in the Religion skill and the Undead Lore skill. You gain the Student of the Canon skill feat."
             ]
         },
         {
@@ -1207,7 +1206,7 @@
             ],
             "backgroundText": [
                 "You called the wilderness home as you found trails and guided travelers. Your wanderlust could have called you to the adventuring life, or perhaps you served as a scout for soldiers and found you liked battle.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and a Lore skill related to one terrain you scouted in (such as Forest Lore or Cavern Lore).",
+                "You're trained in the Survival skill and a Lore skill related to one terrain you scouted in (such as Forest Lore or Cavern Lore).",
                 "You gain the Forager skill feat."
             ]
         },
@@ -1220,8 +1219,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099ve thrown yourself into the study of medicine, so you can save lives without saving souls.",
-                "You\u00e2\u0080\u0099re trained in the Medicine skill and the Anatomy Lore skill. You gain the Battle Medicine skill feat."
+                "You've thrown yourself into the study of medicine, so you can save lives without saving souls.",
+                "You're trained in the Medicine skill and the Anatomy Lore skill. You gain the Battle Medicine skill feat."
             ]
         },
         {
@@ -1235,7 +1234,7 @@
             "backgroundText": [
                 "Seeker",
                 "Background Rare",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Portal Lore skill. You gain the Quick Identification skill feat."
+                "You're trained in the Arcana skill and the Portal Lore skill. You gain the Quick Identification skill feat."
             ]
         },
         {
@@ -1248,7 +1247,7 @@
             ],
             "backgroundText": [
                 "A dark entity has a claim on your soul due to an ancient pact.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Shadow Plane Lore skill. You gain the Quick Coercion skill feat."
+                "You're trained in the Intimidation skill and the Shadow Plane Lore skill. You gain the Quick Coercion skill feat."
             ]
         },
         {
@@ -1261,7 +1260,7 @@
             ],
             "backgroundText": [
                 "You are a fearsome warrior, and your clan counts on you for support, counsel, and defense.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Orc Lore skill. You gain the Intimidating Glare skill feat."
+                "You're trained in the Intimidation skill and the Orc Lore skill. You gain the Intimidating Glare skill feat."
             ]
         },
         {
@@ -1274,7 +1273,7 @@
             ],
             "backgroundText": [
                 "You know how to smuggle people in and out of countries.",
-                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
+                "You're trained in the Stealth skill and the Underworld Lore skill. You gain the Experienced Smuggler skill feat."
             ]
         },
         {
@@ -1287,7 +1286,7 @@
             ],
             "backgroundText": [
                 "Through luck or through skill, you managed to survive a catastrophic maritime disaster, such as a shipwreck or being thrown overboard. You have a keen sense for weather or situations that are similar to the one you escaped.",
-                "You\u00e2\u0080\u0099re trained in the Survival skill and the Weather Lore skill.",
+                "You're trained in the Survival skill and the Weather Lore skill.",
                 "You gain the Forager skill feat."
             ]
         },
@@ -1300,8 +1299,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You eked out a living by picking pockets on the streets of a major city, never knowing where you\u00e2\u0080\u0099d find your next meal. While some folk adventure for the glory, you do so to survive.",
-                "You\u00e2\u0080\u0099re trained in Thievery and a Lore skill for the city you lived in as a street urchin.",
+                "You eked out a living by picking pockets on the streets of a major city, never knowing where you'd find your next meal. While some folk adventure for the glory, you do so to survive.",
+                "You're trained in Thievery and a Lore skill for the city you lived in as a street urchin.",
                 "You gain the Pickpocket skill feat."
             ]
         },
@@ -1314,7 +1313,7 @@
                 "and one is a free boost."
             ],
             "backgroundText": [
-                "You\u2019re trained in the Survival skill and a Regional History Lore skill. You gain the Forager skill feat."
+                "You're trained in the Survival skill and a Regional History Lore skill. You gain the Forager skill feat."
             ]
         },
         {
@@ -1326,8 +1325,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You were scheduled for execution, but through skill\u00e2\u0080\u0094or sheer luck\u00e2\u0080\u0094you managed to talk your way out of it.",
-                "You\u00e2\u0080\u0099re trained in the Deception skill and the Revolution Lore skill. You gain the Charming Liar skill feat."
+                "You were scheduled for execution, but through skill'or sheer luck'you managed to talk your way out of it.",
+                "You're trained in the Deception skill and the Revolution Lore skill. You gain the Charming Liar skill feat."
             ]
         },
         {
@@ -1339,7 +1338,7 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u00e2\u0080\u0099re trained in the Medicine skill and the Undead Lore skill. You gain the Battle Medicine skill feat."
+                "You're trained in the Medicine skill and the Undead Lore skill. You gain the Battle Medicine skill feat."
             ]
         },
         {
@@ -1352,7 +1351,7 @@
             ],
             "backgroundText": [
                 "Your dedication to scientific inquiry provides great insight into mechanical and chemical innovation.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Engineering Lore skill. You gain the Alchemical Crafting skill feat."
+                "You're trained in the Crafting skill and the Engineering Lore skill. You gain the Alchemical Crafting skill feat."
             ]
         },
         {
@@ -1360,13 +1359,13 @@
             "link": "https://pf2.d20pfsrd.com/background/tinker/",
             "source": "Pathfinder 2 Core Rulebook",
             "ability": [
-                "One must be to Dexterity or\u00c2\u00a0Intelligence",
+                "One must be to Dexterity or Intelligence",
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Creating all sorts of minor inventions scratches your itch for problem-solving. Your engineering skills take a particularly creative bent, and no one know what you\u00e2\u0080\u0099ll come up with next.",
-                "It might be a genius device with tremendous potential\u2026 or it might explode.",
-                "You\u00e2\u0080\u0099re trained in the Crafting skill and the Engineering Lore skill.",
+                "Creating all sorts of minor inventions scratches your itch for problem-solving. Your engineering skills take a particularly creative bent, and no one know what you'll come up with next.",
+                "It might be a genius device with tremendous potential... or it might explode.",
+                "You're trained in the Crafting skill and the Engineering Lore skill.",
                 "You gain the Specialty Crafting skill feat."
             ]
         },
@@ -1381,8 +1380,8 @@
             "backgroundText": [
                 "Touched By Dragons",
                 "Background Rare",
-                "A shard of a dragon god\u00e2\u0080\u0099s wrathful nature infused you, resulting in a violent temper, strange apocalyptic dreams, an obsession with dragon hunting, or some other touch of his influence.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Dragon Lore skill. You gain the Titan Wrestler skill feat."
+                "A shard of a dragon god's wrathful nature infused you, resulting in a violent temper, strange apocalyptic dreams, an obsession with dragon hunting, or some other touch of his influence.",
+                "You're trained in the Athletics skill and the Dragon Lore skill. You gain the Titan Wrestler skill feat."
             ]
         },
         {
@@ -1395,7 +1394,7 @@
             ],
             "backgroundText": [
                 "Your experience as a ledger-keeper for a trade guild has made you a canny investor and shrewd entrepreneur.",
-                "You\u00e2\u0080\u0099re trained in the Society skill and the Business Lore skill.",
+                "You're trained in the Society skill and the Business Lore skill.",
                 "You gain the Experienced Professional skill feat."
             ]
         },
@@ -1408,8 +1407,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You know many things that have been long forgotten\u2026 along with many things that are no longer correct.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and a Regional Lore skill. You gain the Dubious Knowledge skill feat."
+                "You know many things that have been long forgotten... along with many things that are no longer correct.",
+                "You're trained in the Arcana skill and a Regional Lore skill. You gain the Dubious Knowledge skill feat."
             ]
         },
         {
@@ -1421,8 +1420,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You love diving and exploring the world beneath the waves, and long periods of swimming have trained you to move easily through the water. You\u00e2\u0080\u0099re also fascinated by undersea creatures and cultures\u00e2\u0080\u0094and may even have a trace of one of them in your own lineage.",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Ocean Lore skill.",
+                "You love diving and exploring the world beneath the waves, and long periods of swimming have trained you to move easily through the water. You're also fascinated by undersea creatures and cultures'and may even have a trace of one of them in your own lineage.",
+                "You're trained in the Athletics skill and the Ocean Lore skill.",
                 "You gain the Underwater Marauder skill feat."
             ]
         },
@@ -1435,8 +1434,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You believe the various city-states should be united into one nation under the rule of your home city, and you\u00e2\u0080\u0099re willing to do whatever it takes to make it happen.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Politics Lore skill. You gain the Quick Coercion skill feat."
+                "You believe the various city-states should be united into one nation under the rule of your home city, and you're willing to do whatever it takes to make it happen.",
+                "You're trained in the Intimidation skill and the Politics Lore skill. You gain the Quick Coercion skill feat."
             ]
         },
         {
@@ -1448,8 +1447,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You have heard endless tales of your people\u00e2\u0080\u0099s history and lore, and have learned many songs and stories from the disparate people you have met.",
-                "You\u00e2\u0080\u0099re trained in the Performance skill and the Circus Lore skill. You gain the Fascinating Performance skill feat."
+                "You have heard endless tales of your people's history and lore, and have learned many songs and stories from the disparate people you have met.",
+                "You're trained in the Performance skill and the Circus Lore skill. You gain the Fascinating Performance skill feat."
             ]
         },
         {
@@ -1462,7 +1461,7 @@
             ],
             "backgroundText": [
                 "In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have wanted to break out from the regimented structure of these forces, or you could have always been as independent a warrior as you are now.",
-                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Warfare Lore skill.",
+                "You're trained in the Intimidation skill and the Warfare Lore skill.",
                 "You gain the Intimidating Glare skill feat."
             ]
         },
@@ -1475,8 +1474,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "The sea\u00e2\u0080\u0099s salt flows through your veins. You\u00e2\u0080\u0099ve taken to sailing and swimming gracefully and with ease, earning you the honorific \u00e2\u0080\u009cwavetouched.\u00e2\u0080\u009d ",
-                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Ocean Lore skill.",
+                "The sea's salt flows through your veins. You've taken to sailing and swimming gracefully and with ease, earning you the honorific \"wavetouched.\",",
+                "You're trained in the Athletics skill and the Ocean Lore skill.",
                 "You gain the Underwater Marauder skill feat."
             ]
         },
@@ -1490,11 +1489,11 @@
             ],
             "backgroundText": [
                 "You might have been born and raised among the druids, or you may have spent time among them as an adult and come to know their ways.",
-                "You\u00e2\u0080\u0099re trained in the Nature skill as well as the Forest Lore skill. You gain the Natural Medicine skill feat."
+                "You're trained in the Nature skill as well as the Forest Lore skill. You gain the Natural Medicine skill feat."
             ]
         },
         {
-            "name": "Winter\u00e2\u0080\u0099s Child",
+            "name": "Winter's Child",
             "link": "https://pf2.d20pfsrd.com/background/winters-child/",
             "source": "Pathfinder Lost Omens World Guide (Second Edition)",
             "ability": [
@@ -1502,8 +1501,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "The blood of Baba Yaga\u00e2\u0080\u0099s legacy runs in your veins, and you are at one with the mysteries and dangers of the frozen land.",
-                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Weather Lore skill. You gain the Arcane Sense skill feat."
+                "The blood of Baba Yaga's legacy runs in your veins, and you are at one with the mysteries and dangers of the frozen land.",
+                "You're trained in the Arcana skill and the Weather Lore skill. You gain the Arcane Sense skill feat."
             ]
         },
         {
@@ -1516,7 +1515,7 @@
             ],
             "backgroundText": [
                 "You have little love or trust for spellcraft and those who practice it, and have developed a paranoid knack for recognizing such tricks. You are constantly on guard for the magic of witches and have been trained to spot the signs of those with minds affected by magic.",
-                "You\u00e2\u0080\u0099re trained in the Occultism skill and the Curse Lore skill. You gain the Oddity Identification skill feat."
+                "You're trained in the Occultism skill and the Curse Lore skill. You gain the Oddity Identification skill feat."
             ]
         },
         {
@@ -1528,8 +1527,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u2019ve tasted knowledge beyond comprehension. You are driven to recapture that astounding experience.",
-                "You\u2019re trained in the Crafting skill and the Alchemical Lore skill. You gain the Alchemical Crafting skill feat."
+                "You've tasted knowledge beyond comprehension. You are driven to recapture that astounding experience.",
+                "You're trained in the Crafting skill and the Alchemical Lore skill. You gain the Alchemical Crafting skill feat."
             ]
         }
     ]
