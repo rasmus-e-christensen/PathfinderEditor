@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="btn-group col-md-2">
+        <select class="form-control" id="background_select" onchange="changeBackground()">
+            <option class="dropdown-item">Select a class</option>
+            {% for background in data %}
+            <option class="dropdown-item" id={{background.name}}>{{ background.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <br>
+    <div id="chosen_ancestry" class="col-md-5">
+        <table class="table table-bordered" id="stat_table" style="table-layout:fixed">
+            <tbody>
+            <tr>
+                <th scope="row">Hit Points</th>
+                <td id="stat_table_hp"></td>
+            </tr>
+            <tr>
+                <th scope="row">Size</th>
+                <td id="stat_table_size"></td>
+            </tr>
+            <tr>
+                <th scope="row">Speed</th>
+                <td id="stat_table_speed"></td>
+            </tr>
+            <tr>
+                <th scope="row">Ability Boosts</th>
+                <td id="stat_table_ab"></td>
+            </tr>
+            <tr>
+                <th scope="row">Ability Flaw</th>
+                <td id="stat_table_af"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
