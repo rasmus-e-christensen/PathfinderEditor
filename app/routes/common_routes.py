@@ -21,3 +21,8 @@ def ancestry():
     with open(os.getcwd() + '\\app\\content\\ancestry.json', 'rb') as file:
         data = json.loads(file.read())
     return render_template('ancestry.html', data=data['Ancestries'])
+
+
+@common.route("/description", methods=['GET'])
+def description():
+    return render_template('description.html')
