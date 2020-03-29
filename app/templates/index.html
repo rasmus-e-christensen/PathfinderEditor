@@ -33,6 +33,8 @@
             <a class="tablinks list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Dashboard')"
                id="defaultOpen">Dashboard</a>
             <a class="tablinks list-group-item list-group-item-action bg-light"
+               onclick="openTab(event, 'Description')">Description</a>
+            <a class="tablinks list-group-item list-group-item-action bg-light"
                onclick="openTab(event, 'Ability_Scores')">Ability Scores</a>
             <a class="list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Ancestry')">Ancestry</a>
             <a class="list-group-item list-group-item-action bg-light"
@@ -81,6 +83,13 @@
                 </iframe>
             </div>
             <form>
+                 <!-- Ability Scores Content -->
+                <div id="Description" class="tabcontent">
+                    <div class="row">
+                        <h1 class="mx-3">Description</h1>
+                    </div>
+                    <div id="description_subpage"></div>
+                </div>
                 <!-- Ability Scores Content -->
                 <div id="Ability_Scores" class="tabcontent">
                     <div class="row">

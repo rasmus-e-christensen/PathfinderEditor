@@ -1,2 +1,3 @@
+PyPDF2
 werkzeug
 Flask==1.1.1
