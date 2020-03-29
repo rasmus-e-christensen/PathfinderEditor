@@ -15,12 +15,13 @@
 
     <!-- In order to load the subpages -->
     <script src="../static/js/jquery-1.9.1.min.js"></script>
-    <script src="../static/js/ability.js"></script>
+    <script src="../static/js/build_character.js"></script>
     <script>
     $(function(){
       $("#ability_subpage").load("/ability");
       $("#ancestry_subpage").load("/ancestry");
     });
+
     </script>
 </head>
 <body>
@@ -42,6 +43,7 @@
                onclick="openTab(event, 'Equipment')">Equipment</a>
             <a class="list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Feats')">Feats</a>
             <a class="list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Spells')">Spells</a>
+            <button class="btn btn-primary mx-3" id="build_character" onclick="build_character()" style="margin-top:10px">Build</button>
         </div>
     </div>
 
@@ -74,7 +76,6 @@
             <div id="Dashboard" class="tabcontent">
                 <div class="row">
                     <h1 class="mx-3">Your Character</h1>
-                    <button class="btn btn-primary mx-3" id="build_character" style="margin:auto">Build</button>
                 </div>
                 <iframe src="../static/characters/Standard_Character_Sheet.pdf" width="100%" height="800px">
                 </iframe>
@@ -157,6 +158,7 @@ function openTab(evt, tabName) {
   }
 }
 document.getElementById("defaultOpen").click();
+
 
 </script>
 </body>
