@@ -1,6 +1,7 @@
 function changeBackgroundTable(obj, index) {
     document.getElementById("background_table_desc").innerHTML = obj[index].backgroundText;
     document.getElementById("background_table_ab_boosts").innerHTML = obj[index].ability;
+    document.getElementById("background_table_source").innerHTML = obj[index].source;
 };
 
 function resetBackgroundRowAbilityScores() {
