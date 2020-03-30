@@ -10,7 +10,8 @@ function changeBackgroundTable(obj, index) {
     document.getElementById("background_table_source").innerHTML = obj[index].source;
     for (i = 0; i < 6; i++) {
         if(obj[index].ability[0].includes(ability_full[i])){
-            document.getElementById('background_boost_select').insertAdjacentHTML("beforeEnd", '<option class="dropdown-item">'.concat(ability_full[i].concat('</option>')));
+            document.getElementById('background_boost_select').
+            insertAdjacentHTML("beforeEnd", '<option class="dropdown-item">'.concat(ability_full[i].concat('</option>')));
         }
     }
 };
@@ -35,18 +36,18 @@ function background_boost(array){
     }
 };
 
+function resetBackgroundPage(){
+    document.getElementById("background_table_desc").innerHTML = "";
+    document.getElementById("background_table_ab_boosts").innerHTML = '<select class="form-control" id="background_boost_select" style="margin-top: 2.5%"> <option class="dropdown-item">Select a boost</option> </select> <div id="background_table_ab_boosts1" style="margin-top:5%"></div> <select class="form-control" id="background_boost_select_free" style="margin-top: 2.5%"> <option class="dropdown-item">Select a free boost</option> <option class="dropdown-item" id="str_background_boost_free">Strength</option> <option class="dropdown-item" id="dex_background_boost_free">Dexterity</option> <option class="dropdown-item" id="con_background_boost_free">Constitution</option> <option class="dropdown-item" id="int_background_boost_free">Intelligence</option> <option class="dropdown-item" id="wis_background_boost_free">Wisdom</option> <option class="dropdown-item" id="cha_background_boost_free">Charisma</option> </select>'
+    document.getElementById("background_table_source").innerHTML = "";
+};
 
 
 function switchBackground(sel_background, obj, index){
-    switch (sel_background) {
-      case "Acolyte":
+    if (sel_background == 'Select a background') {
+         resetBackgroundPage();
+    } else {
+        resetBackgroundPage();
         changeBackgroundTable(obj, index);
-        break;
-      case "Select a background":
-        document.getElementById("background_table_desc").innerHTML = "";
-        document.getElementById("background_table_ab_boosts").innerHTML = "";
-        document.getElementById("background_table_source").innerHTML = "";
-        break;
-
     }
-}
+};
