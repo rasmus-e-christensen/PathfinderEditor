@@ -48,56 +48,8 @@ function changeAncestry(){
    var sel_ancestry = document.getElementById('ancestry_select').value;
    var obj = {{ data | tojson | safe }};
    var index = obj.map(function(e) { return e.name; }).indexOf(sel_ancestry);
-   switch (sel_ancestry) {
-  case "Dwarf":
-    changeAncestryTable(obj, index);
-    dwarf();
-    break;
-  case "Elf":
-    changeAncestryTable(obj, index);
-    elf();
-    break;
-  case "Gnome":
-    changeAncestryTable(obj, index);
-    gnome();
-    break;
-  case "Goblin":
-    changeAncestryTable(obj, index);
-    goblin();
-    break;
-  case "Halfling":
-    changeAncestryTable(obj, index);
-    halfing();
-    break;
-  case "Half-Elf":
-    changeAncestryTable(obj, index);
-    break;
-  case "Half-Orc":
-    changeAncestryTable(obj, index);
-    break;
-  case "Human":
-    changeAncestryTable(obj, index);
-    break;
-  case "Hobgoblin":
-    changeAncestryTable(obj, index);
-    hobgoblin();
-    break;
-  case "Leshy":
-    changeAncestryTable(obj, index);
-    leshy();
-    break;
-  case "Lizardfolk":
-    changeAncestryTable(obj, index);
-    lizardfolk();
-    break;
-  case "Select a class":
-    document.getElementById("stat_table_hp").innerHTML = "";
-    document.getElementById("stat_table_size").innerHTML = "";
-    document.getElementById("stat_table_speed").innerHTML = "";
-    document.getElementById("stat_table_ab").innerHTML = "";
-    document.getElementById("stat_table_af").innerHTML = "";
-    break;
-}};
+   switchAncestry(sel_ancestry, obj, index);
+};
 </script>
 </body>
 </html>
