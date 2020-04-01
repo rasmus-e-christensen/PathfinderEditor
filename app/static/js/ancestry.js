@@ -19,10 +19,12 @@ function resetAncestryRowAbilityScores() {
 function ability_flaw_boost(array){
     resetAncestryRowAbilityScores();
     for (i = 0; i < 2; i++) {
-        document.getElementById(array[i].concat('_ances_mod')).innerHTML = 2;
+        var value = parseInt(document.getElementById(array[i].concat('_ances_mod')).innerHTML);
+        document.getElementById(array[i].concat('_ances_mod')).innerHTML = value + 2;
     }
     for (i = 2; i < 3; i++) {
-        document.getElementById(array[i].concat('_ances_mod')).innerHTML = -2;
+        var value = parseInt(document.getElementById(array[i].concat('_ances_mod')).innerHTML);
+        document.getElementById(array[i].concat('_ances_mod')).innerHTML = value - 2;
     }
 };
 
@@ -71,12 +73,13 @@ function switchAncestry(sel_ancestry, obj , index){
         changeAncestryTable(obj, index);
         ability_flaw_boost(['str', 'wis', 'int']);
         break;
-    case "Select a class":
+    case "Select an ancestry":
         document.getElementById("stat_table_hp").innerHTML = "";
         document.getElementById("stat_table_size").innerHTML = "";
         document.getElementById("stat_table_speed").innerHTML = "";
         document.getElementById("stat_table_ab").innerHTML = "";
         document.getElementById("stat_table_af").innerHTML = "";
+        resetAncestryRowAbilityScores();
         break;
     }
 };

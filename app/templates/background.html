@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script src="../static/js/background.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -27,11 +26,13 @@
             <tr>
                 <th scope="row">Ability Boosts</th>
                 <td id="background_table_ab_boosts">
-                    <select class="form-control" id="background_boost_select" style="margin-top: 2.5%">
+                    <select class="form-control" id="background_boost_select" style="margin-top: 2.5%"
+                            onchange="changeBackgroundBoostSelect(this)">
                         <option class="dropdown-item">Select a boost</option>
                     </select>
                     <div id="background_table_ab_boosts1" style="margin-top:5%"></div>
-                    <select class="form-control" id="background_boost_select_free" style="margin-top: 2.5%">
+                    <select class="form-control" id="background_boost_select_free" style="margin-top: 2.5%"
+                            onchange="changeBackgroundBoostSelectFree(this)">
                         <option class="dropdown-item">Select a free boost</option>
                         <option class="dropdown-item" id="str_background_boost_free">Strength</option>
                         <option class="dropdown-item" id="dex_background_boost_free">Dexterity</option>
@@ -51,6 +52,8 @@
         </table>
     </div>
 </div>
+</body>
+<script src="../static/js/background.js" async></script>
 <script type="text/javascript">
 function changeBackground(){
    var sel_background = document.getElementById('background_select').value;
@@ -59,9 +62,5 @@ function changeBackground(){
    switchBackground(sel_background, obj, index);
 };
 
-
-
-
 </script>
-</body>
 </html>

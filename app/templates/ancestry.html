@@ -9,7 +9,7 @@
 <div class="row">
     <div class="btn-group col-md-2">
         <select class="form-control" id="ancestry_select" onchange="changeAncestry()">
-            <option class="dropdown-item">Select a class</option>
+            <option class="dropdown-item">Select an ancestry</option>
             {% for ancestry in data %}
             <option class="dropdown-item" id={{ancestry.name}}>{{ ancestry.name }}</option>
             {% endfor %}
