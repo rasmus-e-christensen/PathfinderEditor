@@ -7,7 +7,13 @@
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<table class="table table-bordered" id="table">
+<div class="btn-group col-md-2">
+    <select class="form-control" id="ability_method_select">
+        <option class="dropdown-item" id='standard_method'>Standard Method</option>
+        <option class="dropdown-item" id='rolling_method'>Rolling Stats</option>
+    </select>
+</div>
+<table class="table table-bordered" id="table" style="margin-top: 2.5%">
     <thead>
     <tr>
         <th scope="col">Ability Scores</th>

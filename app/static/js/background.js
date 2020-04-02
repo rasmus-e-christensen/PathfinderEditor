@@ -2,7 +2,6 @@ const ability_full = ['Strength', 'Dexterity', 'Constitution', 'Intelligence', '
 const ability_short = ['str', 'dex', 'con', 'int', 'wis','cha'];
 
 
-
 function changeBackgroundTable(obj, index) {
     document.getElementById("background_table_desc").innerHTML = obj[index].backgroundText;
     document.getElementById("background_table_ab_boosts").insertAdjacentHTML("afterBegin", obj[index].ability[0]);
