@@ -54,8 +54,7 @@ $('input[id=charisma], input[id=cha_ances_mod], input[id=cha_background_mod], in
 };
 
 // Checkbox limit
-limit = 0; //set limit
-
+limit = 0;
 checkboxes = document.querySelectorAll('.table input[type="checkbox"]'); //select all checkboxes
 
 function checker(elem) {
@@ -77,7 +76,6 @@ function checker(elem) {
       if (!checkboxes[i].checked) {
         checkboxes[i].disabled = false; // enable unchecked checkboxes
       }
-
     }
   }
 }
