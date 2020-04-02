@@ -15,6 +15,7 @@ function update_ability(ability, index){
   var str_result = '#'.concat(ability).concat('_result');
   $(str_mod).text(Math.floor((parseInt(result) - 10) / 2));
   $(str_result).text(result);
+  console.log(ability);
 };
 
 
@@ -32,10 +33,11 @@ function update_ability_hooks(event){
      }
   }
   result += free;
-  var str_mod = '#'.concat(ability).concat('_mod');
-  var str_result = '#'.concat(ability).concat('_result');
-  $(str_mod).text(Math.floor((parseInt(result) - 10) / 2));
-  $(str_result).text(result);
+  var ab_mod = '#'.concat(ability).concat('_mod');
+  var ab_result = '#'.concat(ability).concat('_result');
+  $(ab_mod).text(Math.floor((parseInt(result) - 10) / 2));
+  $(ab_result).text(result);
+  console.log(ability);
 };
 
 function update_ability_table(){
@@ -46,7 +48,43 @@ ability_short.forEach(update_ability);
 $('input[id=strength], input[id=str_ances_mod], input[id=str_background_mod], input[id=str_free]').change({ability: ability_short[0], index: 0} ,update_ability_hooks);
 $('input[id=dexterity], input[id=dex_ances_mod], input[id=dex_background_mod], input[id=dex_free]').change({ability: ability_short[1], index: 1} ,update_ability_hooks);
 $('input[id=constitution], input[id=con_ances_mod], input[id=con_background_mod], input[id=con_free]').change({ability: ability_short[2], index: 2} ,update_ability_hooks);
-$('input[id=intelligence], input[id=int_ances_mod], input[id=int_background_mod] input[id=int_free]').change({ability: ability_short[3], index: 3} ,update_ability_hooks);
+$('input[id=intelligence], input[id=int_ances_mod], input[id=int_background_mod], input[id=int_free]').change({ability: ability_short[3], index: 3} ,update_ability_hooks);
 $('input[id=wisdom], input[id=wis_ances_mod], input[id=wis_background_mod], input[id=wis_free]').change({ability: ability_short[4], index: 4} ,update_ability_hooks)
 $('input[id=charisma], input[id=cha_ances_mod], input[id=cha_background_mod], input[id=cha_free]').change({ability: ability_short[5], index: 5} ,update_ability_hooks);
+};
+
+// Checkbox limit
+limit = 0; //set limit
+
+checkboxes = document.querySelectorAll('.table input[type="checkbox"]'); //select all checkboxes
+
+function checker(elem) {
+  if (elem.checked) { //if checked, increment counter
+    limit++;
+  } else {
+    limit--; //else, decrement counter
+  }
+
+  for (i = 0; i < checkboxes.length; i++) { // loop through all
+
+    if (limit == 4) {
+      if (!checkboxes[i].checked) {
+        checkboxes[i].disabled = true; // and disable unchecked checkboxes
+
+      }
+    } else { //if limit is less than two
+
+      if (!checkboxes[i].checked) {
+        checkboxes[i].disabled = false; // enable unchecked checkboxes
+      }
+
+    }
+  }
 }
+
+for (i = 0; i < checkboxes.length; i++) {
+  checkboxes[i].onclick = function() { //call function on click and send current element as param
+    checker(this);
+  }
+}
+
