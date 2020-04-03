@@ -2,7 +2,7 @@ function changeAncestryTable(obj, index) {
     document.getElementById("stat_table_hp").innerHTML = obj[index].hp;
     document.getElementById("stat_table_size").innerHTML = obj[index].size;
     document.getElementById("stat_table_speed").innerHTML = obj[index].speed;
-    document.getElementById("stat_table_ab").innerHTML = obj[index].abilityBoosts;
+    document.getElementById("stat_table_ab").insertAdjacentHTML("afterBegin", obj[index].abilityBoosts);
     document.getElementById("stat_table_af").innerHTML = obj[index].abilityFlaws;
 };
 
@@ -16,6 +16,14 @@ function resetAncestryRowAbilityScores() {
 };
 
 
+function resetBackgroundPage(){
+    document.getElementById("stat_table_hp").innerHTML = "";
+    document.getElementById("stat_table_size").innerHTML = "";
+    document.getElementById("stat_table_speed").innerHTML = "";
+    document.getElementById("stat_table_ab").innerHTML = '<select class="form-control" id="ancestry_boost_select" style="margin-top: 2.5%" onchange="changeAncestryBoostSelect()"> <option class="dropdown-item">Select a boost</option> <option class="dropdown-item" id="str_ancestry_boost">Strength</option> <option class="dropdown-item" id="dex_ancestry_boost">Dexterity</option> <option class="dropdown-item" id="con_ancestry_boost">Constitution</option> <option class="dropdown-item" id="int_ancestry_boost">Intelligence</option> <option class="dropdown-item" id="wis_ancestry_boost">Wisdom</option> <option class="dropdown-item" id="cha_ancestry_boost">Charisma</option> </select>'
+    document.getElementById("stat_table_af").innerHTML = '<select class="form-control" id="ancestry_boost_select_1" style="margin-top: 2.5%" onchange="changeAncestryBoostSelect()"> <option class="dropdown-item">Select a boost</option> <option class="dropdown-item" id="str_ancestry_boost_1">Strength</option> <option class="dropdown-item" id="dex_ancestry_boost_1">Dexterity</option> <option class="dropdown-item" id="con_ancestry_boost_1">Constitution</option> <option class="dropdown-item" id="int_ancestry_boost_1">Intelligence</option> <option class="dropdown-item" id="wis_ancestry_boost_1">Wisdom</option><option class="dropdown-item" id="cha_ancestry_boost_1">Charisma</option></select>'
+}
+
 function ability_flaw_boost(array){
     resetAncestryRowAbilityScores();
     for (i = 0; i < 2; i++) {
@@ -28,6 +36,10 @@ function ability_flaw_boost(array){
     }
 };
 
+function changeAncestryBoostSelect(){
+
+};
+
 
 
 function switchAncestry(sel_ancestry, obj , index){
@@ -35,6 +47,7 @@ function switchAncestry(sel_ancestry, obj , index){
     case "Dwarf":
         changeAncestryTable(obj, index);
         ability_flaw_boost(['con', 'wis', 'cha']);
+        $('#ancestry_boost_select').prop('disabled', 'disabled');
         break;
     case "Elf":
         changeAncestryTable(obj, index);
@@ -77,9 +90,10 @@ function switchAncestry(sel_ancestry, obj , index){
         document.getElementById("stat_table_hp").innerHTML = "";
         document.getElementById("stat_table_size").innerHTML = "";
         document.getElementById("stat_table_speed").innerHTML = "";
-        document.getElementById("stat_table_ab").innerHTML = "";
+        document.getElementById("stat_table_ab").innerHTML = '<select class="form-control" id="ancestry_boost_select" style="margin-top: 2.5%" onchange="changeAncestryBoostSelect()"> <option class="dropdown-item">Select a boost</option> <option class="dropdown-item" id="str_ancestry_boost">Strength</option> <option class="dropdown-item" id="dex_ancestry_boost">Dexterity</option> <option class="dropdown-item" id="con_ancestry_boost">Constitution</option> <option class="dropdown-item" id="int_ancestry_boost">Intelligence</option> <option class="dropdown-item" id="wis_ancestry_boost">Wisdom</option> <option class="dropdown-item" id="cha_ancestry_boost">Charisma</option> </select><select class="form-control" id="ancestry_boost_select_1" style="margin-top: 2.5%" onchange="changeAncestryBoostSelect()"> <option class="dropdown-item">Select a boost</option> <option class="dropdown-item" id="str_ancestry_boost_1">Strength</option> <option class="dropdown-item" id="dex_ancestry_boost_1">Dexterity</option> <option class="dropdown-item" id="con_ancestry_boost_1">Constitution</option> <option class="dropdown-item" id="int_ancestry_boost_1">Intelligence</option> <option class="dropdown-item" id="wis_ancestry_boost_1">Wisdom</option><option class="dropdown-item" id="cha_ancestry_boost_1">Charisma</option></select>'
         document.getElementById("stat_table_af").innerHTML = "";
         resetAncestryRowAbilityScores();
         break;
     }
+
 };

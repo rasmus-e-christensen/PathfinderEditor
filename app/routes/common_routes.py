@@ -33,3 +33,8 @@ def background():
     with open(os.getcwd() + '\\app\\content\\backgrounds.json', 'rb') as file:
         data = json.loads(file.read())
     return render_template('background.html', data=data['backgrounds'])
+
+
+@common.route("/background_selectors")
+def background_selectors():
+    return render_template('background_selectors.html')
