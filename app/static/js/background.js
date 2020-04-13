@@ -43,21 +43,25 @@ function switchBackground(sel_background, obj, index) {
 function changeBackgroundBoostSelectFree() {
     let boost_select = document.getElementById('background_boost_select_free').value.toLowerCase();
     let ability_score = boost_select.substring(0, 3);
-    let value = parseInt(document.getElementById(ability_score.concat('_background_mod')).innerHTML);
-    document.getElementById(ability_score.concat("_background_mod")).innerHTML = value + 2;
+    if (ability_score !== 'sel') {
+        let value = parseInt(document.getElementById(ability_score.concat('_background_mod')).innerHTML);
+        document.getElementById(ability_score.concat("_background_mod")).innerHTML = value + 2;
+    }
     previous_select_reset('background_boost_select_free', ability_score);
 }
 
 function changeBackgroundBoostSelect() {
-    let boost_select = document.getElementById('background_boost_select').value.toLowerCase()
+    let boost_select = document.getElementById('background_boost_select').value.toLowerCase();
     let free_boost_select = document.getElementById('background_boost_select_free');
-    if(boost_select === 'Select a boost'){
+    let ability_score = boost_select.substring(0, 3);
+    if (ability_score === 'sel') {
         makeAllItemsAvailable(free_boost_select);
         return
     }
-    let ability_score = boost_select.substring(0, 3);
-    let value = parseInt(document.getElementById(ability_score.concat('_background_mod')).innerHTML);
-    document.getElementById(ability_score.concat("_background_mod")).innerHTML = value + 2;
+    else if(ability_score !== 'sel') {
+        let value = parseInt(document.getElementById(ability_score.concat('_background_mod')).innerHTML);
+        document.getElementById(ability_score.concat("_background_mod")).innerHTML = value + 2;
+    }
     previous_select_reset('background_boost_select', ability_score);
     makeAllItemsAvailable(free_boost_select);
     for (let index = 1; index <= 6; index++) {
@@ -71,7 +75,7 @@ function changeBackgroundBoostSelect() {
 function makeAllItemsAvailable(dropdown) {
     let options = dropdown.options;
     for (let index = 0; index < options.length; index++) {
-        if(options[index].disabled === true){
+        if (options[index].disabled === true) {
             options[index].disabled = false;
         }
     }
@@ -81,14 +85,21 @@ function makeAllItemsAvailable(dropdown) {
 function previous_select_reset(select_id) {
     let previous;
     $("select[id=\"".concat(select_id).concat("\"]")).focus(function () {
-        // Store the current value on focus, before it changes
+        // Store the current value on focus, before it change
         previous = this.value.toLowerCase().substring(0, 3).concat("_background_mod");
+        console.log("before change " + this.value)
     }).change(function () {
+        console.log("after change " + previous);
         // Do soomething with the previous value after the change
         if (previous !== undefined) {
-            const curr_value = parseInt(document.getElementById(previous).innerHTML);
-            document.getElementById(previous).innerHTML = curr_value - 2;
-            previous = this.value;
+            if(previous === 'sel_background_mod' || previous === 'Select a boost'){
+            }
+            else {
+                const curr_value = parseInt(document.getElementById(previous).innerHTML);
+                document.getElementById(previous).innerHTML = curr_value - 2;
+                previous = this.value;
+            }
+
         }
     });
 }
