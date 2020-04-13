@@ -57,10 +57,11 @@
 <script type="text/javascript">
 function changeBackground(){
    var sel_background = document.getElementById('background_select').value;
-   var obj = {{ data | tojson | safe }};
+   var obj = {{data | tojson | safe}}
    var index = obj.map(function(e) { return e.name; }).indexOf(sel_background);
+   resetBackgroundRowAbilityScores();
    switchBackground(sel_background, obj, index);
-};
+}
 
 </script>
 </html>
