@@ -18,7 +18,18 @@
             <div id="spell_card{{loop.index}}" class="collapse" role="tabpanel" aria-labelledby="spell{{loop.index}}"
                  data-parent="#spell_list">
                 <div class="card-body">
-                    {{spell.text}}
+                    <div style="padding-bottom: 2%">
+                        <i>{{spell.traditions}}</i> <br>
+                    </div>
+                    <b>Cast:</b> {{spell.cast}} <br>
+                    <b>Actions:</b> {{spell.actions}} <br>
+                    <b>Range:</b> {{spell.range}} <br>
+                    <b>Targets:</b> {{spell.targets}} <br>
+                    <div style="padding-top: 2%">
+
+                        {{spell.text}}
+                    </div>
+
                 </div>
             </div>
         </div>
