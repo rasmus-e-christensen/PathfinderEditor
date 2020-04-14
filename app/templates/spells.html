@@ -1,12 +1,29 @@
-<div class="row">
-    <div class="btn-group col-md-4">
-        <div id="spells_select">
-            {% for spell in data %}
-            <div class="row">
-                <i class="fa fa-check f-s-14 bg-white b-color-gray orange-shadow pointer b-1 white transparent "></i>
-                <div class="form-control">{{ spell.name }}</div>
+<div class="col-md-4">
+    <!--Accordion wrapper-->
+    <div class="accordion md-accordion" id="spell_list" role="tablist" aria-multiselectable="true">
+        {% for spell in data %}
+        <!-- Accordion card -->
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="spell{{loop.index}}">
+                <a class="collapsed" data-toggle="collapse" data-parent="#spell_list" href="#spell_card{{loop.index}}"
+                   aria-expanded="false" aria-controls="spell_card{{loop.index}}">
+                    <h5 class="mb-0">
+                        {{spell.name}} <i class="fas fa-angle-down rotate-icon"></i>
+                    </h5>
+                </a>
             </div>
-            {% endfor %}
+
+            <!-- Card body -->
+            <div id="spell_card{{loop.index}}" class="collapse" role="tabpanel" aria-labelledby="spell{{loop.index}}"
+                 data-parent="#spell_list">
+                <div class="card-body">
+                    {{spell.text}}
+                </div>
+            </div>
         </div>
+        {% endfor %}
+        <!-- Accordion card -->
     </div>
+    <!-- Accordion wrapper -->
 </div>
