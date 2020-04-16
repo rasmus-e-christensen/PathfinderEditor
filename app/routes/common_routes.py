@@ -35,13 +35,15 @@ def background():
     return render_template('background.html', data=data['backgrounds'])
 
 
-@common.route("/background_selectors")
-def background_selectors():
-    return render_template('background_selectors.html')
-
-
 @common.route("/spells")
 def spells():
     with open(os.getcwd() + '\\app\\content\\spells.json', 'rb') as file:
         data = json.loads(file.read())
     return render_template('spells.html', data=data['spells'])
+
+
+@common.route("/feats")
+def feats():
+    with open(os.getcwd() + '\\app\\content\\feats.json', 'rb') as file:
+        data = json.loads(file.read())
+    return render_template('feat.html', data=data)

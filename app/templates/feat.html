@@ -1,0 +1,34 @@
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/feat.js"></script>
+
+<div class="col-md-4">
+    <div id="accordion">
+        {% for featOverall in data %}
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0 d-inline">
+                    <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                        {{featOverall}}
+                    </button>
+                </h5>
+            </div>
+            {% for featType in data[featOverall] %}
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body" id="child{{loop.index}}">
+                    <div class="card">
+                        <div class="card-header">
+                            <a data-toggle="collapse" data-target="#collapseOneA">{{featType}}</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#child{{loop.index}}" id="collapseOneA">
+                            Crunch wolf moon tempor, sunt aliqua put a bird.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
