@@ -7,7 +7,7 @@ common = Blueprint('common_routes', __name__)
 
 
 @common.route("/")
-def startpage():
+def start_page():
     return render_template('index.html')
 
 

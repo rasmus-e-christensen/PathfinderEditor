@@ -1,19 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 <div class="col-md-4">
+    <input class="form-control" id="myInput" type="text" placeholder="Filter">
+    <br>
     <!--Accordion wrapper-->
     <div class="accordion md-accordion" id="spell_list" role="tablist" aria-multiselectable="true">
         {% for spell in data %}
-        <!-- Accordion card -->
         <div class="card">
             <!-- Card header -->
             <div class="card-header" role="tab" id="spell{{loop.index}}">
+                <div>
+                    <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                </div>
                 <a class="collapsed" data-toggle="collapse" data-parent="#spell_list" href="#spell_card{{loop.index}}"
                    aria-expanded="false" aria-controls="spell_card{{loop.index}}">
                     <h5 class="mb-0">
-                        {{spell.name}} <i class="fas fa-angle-down rotate-icon"></i>
+                        {{spell.name}}
+                        <i class="fas fa-angle-down rotate-icon"></i>
                     </h5>
                 </a>
             </div>
-
             <!-- Card body -->
             <div id="spell_card{{loop.index}}" class="collapse" role="tabpanel" aria-labelledby="spell{{loop.index}}"
                  data-parent="#spell_list">
@@ -21,20 +29,28 @@
                     <div style="padding-bottom: 2%">
                         <i>{{spell.traditions}}</i> <br>
                     </div>
+                    <b>Level:</b> {{spell.level}} <br>
                     <b>Cast:</b> {{spell.cast}} <br>
                     <b>Actions:</b> {{spell.actions}} <br>
                     <b>Range:</b> {{spell.range}} <br>
                     <b>Targets:</b> {{spell.targets}} <br>
                     <div style="padding-top: 2%">
-
                         {{spell.text}}
                     </div>
-
                 </div>
             </div>
         </div>
         {% endfor %}
-        <!-- Accordion card -->
     </div>
-    <!-- Accordion wrapper -->
 </div>
+
+<script>
+    $(document).ready(function () {
+        $("#myInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $("#spell_list div.card").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
