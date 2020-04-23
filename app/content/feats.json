@@ -1655,7 +1655,7 @@
                 "pfsLegal": true
             }
         ],
-        " alchemistFeats": [
+        "alchemistFeats": [
             {
                 "name": "Alchemical Familiar",
                 "level": 1,
@@ -2153,7 +2153,7 @@
                 "pfsLegal": true
             }
         ],
-        " barbarianFeats": [
+        "barbarianFeats": [
             {
                 "name": "Acute Vision",
                 "level": 1,
@@ -2882,7 +2882,7 @@
                 "actions": "Single Action"
             }
         ],
-        " bardFeats": [
+        "bardFeats": [
             {
                 "name": "Bardic Lore",
                 "level": 1,
@@ -3364,7 +3364,7 @@
                 "pfsLegal": true
             }
         ],
-        " championFeats": [
+        "championFeats": [
             {
                 "name": "Deity's Domain",
                 "level": 1,
@@ -4061,7 +4061,7 @@
                 "pfsLegal": true
             }
         ],
-        " clericFeats": [
+        "clericFeats": [
             {
                 "name": "Deadly Simplicity",
                 "level": 1,
@@ -4696,7 +4696,7 @@
                 "actions": "Free Action"
             }
         ],
-        " druidFeats": [
+        "druidFeats": [
             {
                 "name": "Animal Companion",
                 "level": 1,
@@ -5305,7 +5305,7 @@
                 "actions": "Two Actions"
             }
         ],
-        " fighterFeats": [
+        "fighterFeats": [
             {
                 "name": "Double Slice",
                 "level": 1,
@@ -6359,7 +6359,7 @@
                 "pfsLegal": true
             }
         ],
-        " monkFeats": [
+        "monkFeats": [
             {
                 "name": "Crane Stance",
                 "level": 1,
@@ -7160,7 +7160,7 @@
                 "actions": "Reaction"
             }
         ],
-        " rangerFeats": [
+        "rangerFeats": [
             {
                 "name": "Animal Companion",
                 "level": 1,
@@ -7951,7 +7951,7 @@
                 "pfsLegal": true
             }
         ],
-        " rogueFeats": [
+        "rogueFeats": [
             {
                 "name": "Nimble Dodge",
                 "level": 1,
@@ -8651,7 +8651,7 @@
                 "actions": "Reaction"
             }
         ],
-        " sorcererFeats": [
+        "sorcererFeats": [
             {
                 "name": "Counterspell (Spontaneous)",
                 "level": 1,
@@ -9090,7 +9090,7 @@
                 "pfsLegal": true
             }
         ],
-        " wizardFeats": [
+        "wizardFeats": [
             {
                 "name": "Counterspell (Prepared)",
                 "level": 1,

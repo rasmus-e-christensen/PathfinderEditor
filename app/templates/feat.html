@@ -3,32 +3,65 @@
 <script src="../static/js/feat.js"></script>
 
 <div class="col-md-4">
-    <div id="accordion">
-        {% for featOverall in data %}
+    {% for featTypes in data %}
+    <div id="accordion-{{featTypes}}">
         <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0 d-inline">
-                    <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                            aria-controls="collapseOne">
-                        {{featOverall}}
-                    </button>
+            <div class="card-header" id="heading-{{featTypes}}">
+                <h5 class="mb-0">
+                    <a role="button" data-toggle="collapse" href="#collapse-{{featTypes}}" aria-expanded="true"
+                       aria-controls="collapse-{{featTypes}}">
+                        {{featTypes}}
+                    </a>
                 </h5>
             </div>
-            {% for featType in data[featOverall] %}
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body" id="child{{loop.index}}">
-                    <div class="card">
-                        <div class="card-header">
-                            <a data-toggle="collapse" data-target="#collapseOneA">{{featType}}</a>
-                        </div>
-                        <div class="card-body collapse" data-parent="#child{{loop.index}}" id="collapseOneA">
-                            Crunch wolf moon tempor, sunt aliqua put a bird.
+            <div id="collapse-{{featTypes}}" class="collapse show" data-parent="#accordion-{{featTypes}}"
+                 aria-labelledby="heading-{{featTypes}}">
+                <div class="card-body">
+                    {% for innerFeat in data[featTypes] %}
+                    <div id="accordion-{{innerFeat}}">
+                        <div class="card">
+                            <div class="card-header" id="heading-{{featTypes}}-{{innerFeat}}">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                       href="#collapse-{{featTypes}}-{{innerFeat}}"
+                                       aria-expanded="false" aria-controls="collapse-{{featTypes}}-{{innerFeat}}">
+                                        {{innerFeat}}
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapse-{{featTypes}}-{{innerFeat}}" class="collapse"
+                                 data-parent="#accordion-{{innerFeat}}"
+                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}">
+                                <div class="card-body">
+                                    {% for feat in data[innerFeat] %}
+                                    <div id="accordion-{{featTypes}}-{{innerFeat}}">
+                                        <div class="card">
+                                            <div class="card-header" id="heading-{{featTypes}}-{{innerFeat}}-{{feat}}">
+                                                <h5 class="mb-0">
+                                                    <a class="collapsed" role="button" data-toggle="collapse"
+                                                       href="#collapse-{{featTypes}}-{{innerFeat}}-{{feat}}" aria-expanded="false"
+                                                       aria-controls="collapse-{{featTypes}}-{{innerFeat}}-{{feat}}">
+                                                        {{feat}}
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse-{{featTypes}}-{{innerFeat}}-{{feat}}" class="collapse" data-parent="#accordion-{{featTypes}}-{{innerFeat}}"
+                                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}-{{feat}}">
+                                                <div class="card-body">
+                                                    {{feat}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
-            {% endfor %}
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
