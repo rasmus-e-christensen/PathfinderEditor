@@ -2,7 +2,10 @@
 <script src="../static/js/jquery.min.js"></script>
 <script src="../static/js/feat.js"></script>
 
+
 <div class="col-md-6">
+    <input class="form-control" id="featInput" type="text" placeholder="Filter">
+    <br>
     {% for featTypes in data %}
     <div id="accordion-{{featTypes}}">
         <div class="card">
