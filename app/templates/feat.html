@@ -2,7 +2,7 @@
 <script src="../static/js/jquery.min.js"></script>
 <script src="../static/js/feat.js"></script>
 
-<div class="col-md-4">
+<div class="col-md-6">
     {% for featTypes in data %}
     <div id="accordion-{{featTypes}}">
         <div class="card">
@@ -33,22 +33,30 @@
                                  data-parent="#accordion-{{innerFeat}}"
                                  aria-labelledby="heading-{{featTypes}}-{{innerFeat}}">
                                 <div class="card-body">
-                                    {% for feat in data[innerFeat] %}
+                                    {% for feat in data[featTypes][innerFeat] %}
                                     <div id="accordion-{{featTypes}}-{{innerFeat}}">
                                         <div class="card">
-                                            <div class="card-header" id="heading-{{featTypes}}-{{innerFeat}}-{{feat}}">
+                                            <div class="card-header"
+                                                 id="heading-{{featTypes}}-{{innerFeat}}-{{loop.index}}">
                                                 <h5 class="mb-0">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
-                                                       href="#collapse-{{featTypes}}-{{innerFeat}}-{{feat}}" aria-expanded="false"
-                                                       aria-controls="collapse-{{featTypes}}-{{innerFeat}}-{{feat}}">
-                                                        {{feat}}
+                                                       href="#collapse-{{featTypes}}-{{innerFeat}}-{{loop.index}}"
+                                                       aria-expanded="false"
+                                                       aria-controls="collapse-{{featTypes}}-{{innerFeat}}-{{feat.index}}">
+                                                        {{feat.name}}
                                                     </a>
                                                 </h5>
                                             </div>
-                                            <div id="collapse-{{featTypes}}-{{innerFeat}}-{{feat}}" class="collapse" data-parent="#accordion-{{featTypes}}-{{innerFeat}}"
-                                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}-{{feat}}">
+                                            <div id="collapse-{{featTypes}}-{{innerFeat}}-{{loop.index}}"
+                                                 class="collapse" data-parent="#accordion-{{featTypes}}-{{innerFeat}}"
+                                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}-{{loop.index}}">
                                                 <div class="card-body">
-                                                    {{feat}}
+                                                    <b>Level:</b> {{feat.level}} <br>
+                                                    <b>Prerequisites:</b> {{feat.prerequisites}} <br>
+                                                    <b>Benefits:</b> {{feat.benefits}} <br>
+                                                    <div style="padding-top: 2%">
+                                                        {{feat.text}}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
