@@ -1,7 +1,7 @@
 import json
 import os
 
-from flask import Blueprint
+from flask import Blueprint, send_from_directory
 
 data = Blueprint('data_routes', __name__)
 
@@ -20,4 +20,7 @@ def background_data():
     return str(data['backgrounds'])
 
 
-
+@data.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(data.root_path, 'static'),
+                               '../static/favicon.ico', mimetype='image/vnd.microsoft.icon')

@@ -7,6 +7,8 @@
     <meta name="author" content="">
     <title>Pathfinder 2e Character Editor</title>
 
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <!-- Bootstrap core CSS -->
     <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -15,15 +17,17 @@
     <!-- In order to load the subpages -->
     <script src="../static/js/jquery-1.9.1.min.js"></script>
     <script src="../static/js/build_character.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
     <script>
-    $(function(){
-      $("#ability_subpage").load("/ability");
-      $("#ancestry_subpage").load("/ancestry");
-      $("#description_subpage").load("/description");
-      $("#background_subpage").load("/background");
-      $("#spells_subpage").load("/spells");
-      $("#feats_subpage").load("/feats");
-    });
+        $(function () {
+            $("#ability_subpage").load("/ability");
+            $("#ancestry_subpage").load("/ancestry");
+            $("#description_subpage").load("/description");
+            $("#background_subpage").load("/background");
+            $("#spells_subpage").load("/spells");
+            $("#feats_subpage").load("/feats");
+        });
 
     </script>
 </head>
@@ -48,7 +52,9 @@
                onclick="openTab(event, 'Equipment')">Equipment</a>
             <a class="list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Feats')">Feats</a>
             <a class="list-group-item list-group-item-action bg-light" onclick="openTab(event, 'Spells')">Spells</a>
-            <button class="btn btn-primary mx-3" id="build_character" onclick="build_character()" style="margin-top:10px">Build</button>
+            <button class="btn btn-primary mx-3" id="build_character" onclick="build_character()"
+                    style="margin-top:10px">Build
+            </button>
         </div>
     </div>
 
@@ -86,7 +92,7 @@
                 </iframe>
             </div>
             <form>
-                 <!-- Description Content -->
+                <!-- Description Content -->
                 <div id="Description" class="tabcontent">
                     <div class="row">
                         <h1 class="mx-3">Description</h1>
@@ -153,23 +159,24 @@
 
 <!-- Menu Toggle Script -->
 <script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-  if(tabName == "Ability_Scores"){
-    update_ability_table()
-  }
-}
-document.getElementById("defaultOpen").click();
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+        if (tabName == "Ability_Scores") {
+            update_ability_table()
+        }
+    }
+
+    document.getElementById("defaultOpen").click();
 
 
 </script>

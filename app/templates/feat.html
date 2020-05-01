@@ -1,5 +1,3 @@
-<script src="../static/js/bootstrap.min.js"></script>
-<script src="../static/js/jquery.min.js"></script>
 <script src="../static/js/feat.js"></script>
 
 
@@ -7,9 +5,9 @@
     <input class="form-control" id="featInput" type="text" placeholder="Filter">
     <br>
     {% for featTypes in data %}
-    <div id="accordion-{{featTypes}}">
-        <div class="card">
-            <div class="card-header" id="heading-{{featTypes}}">
+    <div class="accordion md-accordion" role="tablist" id="accordion-{{featTypes}}" aria-multiselectable="true">
+        <div class="card firstlevel">
+            <div class="card-header" role="tab" id="heading-{{featTypes}}">
                 <h5 class="mb-0">
                     <a role="button" data-toggle="collapse" href="#collapse-{{featTypes}}" aria-expanded="true"
                        aria-controls="collapse-{{featTypes}}">
@@ -18,11 +16,11 @@
                 </h5>
             </div>
             <div id="collapse-{{featTypes}}" class="collapse show" data-parent="#accordion-{{featTypes}}"
-                 aria-labelledby="heading-{{featTypes}}">
+                 aria-labelledby="heading-{{featTypes}}" role="tabpanel">
                 <div class="card-body">
                     {% for innerFeat in data[featTypes] %}
                     <div id="accordion-{{innerFeat}}">
-                        <div class="card">
+                        <div class="card secondlevel">
                             <div class="card-header" id="heading-{{featTypes}}-{{innerFeat}}">
                                 <h5 class="mb-0">
                                     <a class="collapsed" role="button" data-toggle="collapse"
@@ -38,7 +36,7 @@
                                 <div class="card-body">
                                     {% for feat in data[featTypes][innerFeat] %}
                                     <div id="accordion-{{featTypes}}-{{innerFeat}}">
-                                        <div class="card">
+                                        <div class="card thirdlevel">
                                             <div class="card-header"
                                                  id="heading-{{featTypes}}-{{innerFeat}}-{{loop.index}}">
                                                 <h5 class="mb-0">
