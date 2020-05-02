@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#featInput").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $(".firstlevel .secondlevel .thirdlevel").filter(function () {
+        $("#feat_list div.card").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });

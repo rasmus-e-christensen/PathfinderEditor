@@ -5,53 +5,66 @@
     <label for="featInput"></label>
     <input class="form-control" id="featInput" type="text" placeholder="Filter">
     <br>
-    {% for featTypes in data %}
-    <div class="accordion md-accordion" role="tablist" id="accordion-{{featTypes}}" aria-multiselectable="true">
-        <div class="card firstlevel">
-            <div class="card-header" role="tab" id="heading-{{featTypes}}">
-                <h5 class="mb-0">
-                    <a role="button" data-toggle="collapse" href="#collapse-{{featTypes}}" aria-expanded="true"
-                       aria-controls="collapse-{{featTypes}}">
+
+    <!--Accordion wrapper-->
+    <div class="accordion md-accordion" id="feat_list" role="tablist" aria-multiselectable="true">
+        {% for featTypes in data %}
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="feat{{loop.index}}">
+                <a class="collapsed" data-toggle="collapse" data-parent="#feat_list" href="#feat_card{{loop.index}}"
+                   aria-expanded="false" aria-controls="feat_card{{loop.index}}">
+                    <h5 class="mb-0">
                         {{featTypes}}
-                    </a>
-                </h5>
+                        <i class="fas fa-angle-down rotate-icon"></i>
+                    </h5>
+                </a>
             </div>
-            <div id="collapse-{{featTypes}}" class="collapse show" data-parent="#accordion-{{featTypes}}"
-                 aria-labelledby="heading-{{featTypes}}" role="tabpanel">
+            <!-- Card body -->
+            <div id="feat_card{{loop.index}}" class="collapse" role="tabpanel" aria-labelledby="feat{{loop.index}}"
+                 data-parent="#feat_list">
                 <div class="card-body">
-                    {% for innerFeat in data[featTypes] %}
-                    <div id="accordion-{{innerFeat}}">
-                        <div class="card secondlevel">
-                            <div class="card-header" id="heading-{{featTypes}}-{{innerFeat}}">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                       href="#collapse-{{featTypes}}-{{innerFeat}}"
-                                       aria-expanded="false" aria-controls="collapse-{{featTypes}}-{{innerFeat}}">
+                    <div class="accordion md-accordion" id="feat_list_{{featTypes}}" role="tablist"
+                         aria-multiselectable="true">
+                        {% for innerFeat in data[featTypes] %}
+                        <div class="card">
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="feat{{innerFeat}}">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#feat_list_{{featTypes}}"
+                                   href="#feat_card{{innerFeat}}"
+                                   aria-expanded="false" aria-controls="feat_card{{innerFeat}}">
+                                    <h5 class="mb-0">
                                         {{innerFeat}}
-                                    </a>
-                                </h5>
+                                        <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
                             </div>
-                            <div id="collapse-{{featTypes}}-{{innerFeat}}" class="collapse"
-                                 data-parent="#accordion-{{innerFeat}}"
-                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}">
+                            <!-- Card body -->
+                            <div id="feat_card{{innerFeat}}" class="collapse" role="tabpanel"
+                                 aria-labelledby="feat{{innerFeat}}"
+                                 data-parent="#feat_list_{{featTypes}}">
                                 <div class="card-body">
-                                    {% for feat in data[featTypes][innerFeat] %}
-                                    <div id="accordion-{{featTypes}}-{{innerFeat}}">
-                                        <div class="card thirdlevel">
-                                            <div class="card-header"
-                                                 id="heading-{{featTypes}}-{{innerFeat}}-{{loop.index}}">
-                                                <h5 class="mb-0">
-                                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                                       href="#collapse-{{featTypes}}-{{innerFeat}}-{{loop.index}}"
-                                                       aria-expanded="false"
-                                                       aria-controls="collapse-{{featTypes}}-{{innerFeat}}-{{feat.index}}">
+                                    <div class="accordion md-accordion" id="feat_list_{{innerFeat}}" role="tablist"
+                                         aria-multiselectable="true">
+                                        {% for feat in data[featTypes][innerFeat] %}
+                                        <div class="card">
+                                            <!-- Card header -->
+                                            <div class="card-header" role="tab" id="{{feat.name}}{{loop.index}}">
+                                                <a class="collapsed" data-toggle="collapse"
+                                                   data-parent="#feat_list_{{innerFeat}}"
+                                                   href="#feat_card{{innerFeat}}{{loop.index}}"
+                                                   aria-expanded="false"
+                                                   aria-controls="feat_card{{innerFeat}}{{loop.index}}">
+                                                    <h5 class="mb-0">
                                                         {{feat.name}}
-                                                    </a>
-                                                </h5>
+                                                        <i class="fas fa-angle-down rotate-icon"></i>
+                                                    </h5>
+                                                </a>
                                             </div>
-                                            <div id="collapse-{{featTypes}}-{{innerFeat}}-{{loop.index}}"
-                                                 class="collapse" data-parent="#accordion-{{featTypes}}-{{innerFeat}}"
-                                                 aria-labelledby="heading-{{featTypes}}-{{innerFeat}}-{{loop.index}}">
+                                            <!-- Card body -->
+                                            <div id="feat_card{{innerFeat}}{{loop.index}}" class="collapse"
+                                                 role="tabpanel" aria-labelledby="feat{{innerFeat}}{{loop.index}}"
+                                                 data-parent="#feat_list_{{innerFeat}}">
                                                 <div class="card-body">
                                                     <b>Level:</b> {{feat.level}} <br>
                                                     <b>Prerequisites:</b> {{feat.prerequisites}} <br>
@@ -62,16 +75,16 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        {% endfor %}
                                     </div>
-                                    {% endfor %}
                                 </div>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
