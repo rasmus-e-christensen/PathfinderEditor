@@ -11,13 +11,12 @@
             <!-- Card header -->
             <div class="card-header" role="tab" id="spell{{loop.index}}">
                 <div>
-                    <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                    <input type="checkbox" class="form-check-input" id="{{spell}}_check">
                 </div>
                 <a class="collapsed" data-toggle="collapse" data-parent="#spell_list" href="#spell_card{{loop.index}}"
                    aria-expanded="false" aria-controls="spell_card{{loop.index}}">
                     <h5 class="mb-0">
                         {{spell.name}}
-                        <i class="fas fa-angle-down rotate-icon"></i>
                     </h5>
                 </a>
             </div>
