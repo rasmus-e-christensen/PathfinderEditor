@@ -5,7 +5,6 @@
     <label for="featInput"></label>
     <input class="form-control" id="featInput" type="text" placeholder="Filter">
     <br>
-
     <!--Accordion wrapper-->
     <div class="accordion md-accordion" id="feat_list" role="tablist" aria-multiselectable="true">
         {% for featTypes in data %}
@@ -67,6 +66,7 @@
                                                  data-parent="#feat_list_{{innerFeat}}">
                                                 <div class="card-body">
                                                     <b>Level:</b> {{feat.level}} <br>
+                                                    <b>Traits:</b> {{feat.traits}} <br>
                                                     <b>Prerequisites:</b> {{feat.prerequisites}} <br>
                                                     <b>Benefits:</b> {{feat.benefits}} <br>
                                                     <div style="padding-top: 2%">
