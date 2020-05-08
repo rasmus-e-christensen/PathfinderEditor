@@ -1,0 +1,68 @@
+<script src="../static/js/equipment.js"></script>
+
+<div class="col-md-6">
+    <label for="advGearInput"></label>
+    <div class="row" style="padding: inherit">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Category
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Adventuring Gear</a>
+                <a class="dropdown-item" href="#">Alchemical Items</a>
+                <a class="dropdown-item" href="#">Armor</a>
+                <a class="dropdown-item" href="#">Consumables</a>
+                <a class="dropdown-item" href="#">Cursed Items</a>
+                <a class="dropdown-item" href="#">Held Items</a>
+                <a class="dropdown-item" href="#">Intelligent Items</a>
+                <a class="dropdown-item" href="#">Materials</a>
+                <a class="dropdown-item" href="#">Relics</a>
+                <a class="dropdown-item" href="#">Runes</a>
+                <a class="dropdown-item" href="#">Scrolls</a>
+                <a class="dropdown-item" href="#">Services</a>
+                <a class="dropdown-item" href="#">Shields</a>
+                <a class="dropdown-item" href="#">Snares</a>
+                <a class="dropdown-item" href="#">Staves</a>
+                <a class="dropdown-item" href="#">Structures</a>
+                <a class="dropdown-item" href="#">Vechicles</a>
+                <a class="dropdown-item" href="#">Wands</a>
+                <a class="dropdown-item" href="#">Weapons</a>
+                <a class="dropdown-item" href="#">Worn Items</a>
+            </div>
+        </div>
+        <div>
+            <input class="form-control" id="advGearInput" type="text" placeholder="Filter">
+        </div>
+    </div>
+    <br>
+    <!--Accordion wrapper-->
+    <div class="accordion md-accordion" id="advGear_list" role="tablist" aria-multiselectable="true">
+        {% for equipment in data["wornItems"] %}
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="equipment{{loop.index}}">
+                <div>
+                    <input type="checkbox" class="form-check-input" id="{{equipment.name}}_check">
+                </div>
+                <a class="collapsed" data-toggle="collapse" data-parent="#advGear_list"
+                   href="#equipment_card{{loop.index}}"
+                   aria-expanded="false" aria-controls="equipment_card{{loop.index}}">
+                    <h5 class="mb-0">
+                        {{equipment.name}}
+                    </h5>
+                </a>
+            </div>
+            <!-- Card body -->
+            <div id="equipment_card{{loop.index}}" class="collapse" role="tabpanel"
+                 aria-labelledby="equipment{{loop.index}}"
+                 data-parent="#advGear_list">
+                <div class="card-body">
+                    {{equipment.name}}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

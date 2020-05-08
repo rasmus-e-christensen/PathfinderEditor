@@ -47,3 +47,10 @@ def feats():
     with open(os.getcwd() + '\\app\\content\\feats.json', 'rb') as file:
         data = json.loads(file.read())
     return render_template('feat.html', data=data)
+
+
+@common.route("/equipment")
+def equipment():
+    with open(os.getcwd() + '\\app\\content\\adv-gear.json', 'rb') as file:
+        data = json.loads(file.read())
+    return render_template('equipment.html', data=data)
